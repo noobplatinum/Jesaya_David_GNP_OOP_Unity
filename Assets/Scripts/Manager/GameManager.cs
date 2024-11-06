@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
         LevelManager = FindObjectOfType<LevelManager>();
         
-        HideAllExceptCameraAndPlayer();
+        //HideAllExceptCameraAndPlayer();
     }
 
     private void HideAllExceptCameraAndPlayer()
@@ -35,5 +35,5 @@ public class GameManager : MonoBehaviour
             }
             obj.SetActive(false);
         }
-    }
+    } 
 }

@@ -13,7 +13,7 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
 {
     [SerializeField] private Weapon weaponHolder; 
     private Weapon weapon;
-    private static Weapon activeWeapon; // Static reference to track the currently active weapon
+    private static Weapon activeWeapon; 
 
     void Awake() // Instantiasi Weapon
     {
@@ -53,14 +53,12 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
 
     void ActivateWeapon(Weapon newWeapon)
     {
-        // Deactivate the currently active weapon
         if (activeWeapon != null)
         {
             activeWeapon.gameObject.SetActive(false);
             TurnVisual(false, activeWeapon);
         }
 
-        // Activate the new weapon
         activeWeapon = newWeapon;
         activeWeapon.gameObject.SetActive(true);
         TurnVisual(true, activeWeapon);
@@ -85,7 +83,20 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
     void AttachWeaponToPlayer(Transform playerTransform)
     {
         weapon.transform.SetParent(playerTransform);
-        weapon.transform.localPosition = new Vector3(0, 0, 0); // Menempelkan senjata tepat di posisi X dan Y Player
-        weapon.transform.localRotation = Quaternion.identity; // Reset rotasi senjata
+        weapon.transform.localPosition = new Vector3(0, 0, 0); 
+        weapon.transform.localRotation = Quaternion.identity; 
+
+
+        SpriteRenderer weaponRenderer = weapon.GetComponent<SpriteRenderer>();
+        if (weaponRenderer != null)
+        {
+            weaponRenderer.sortingLayerName = "Player"; 
+            weaponRenderer.sortingOrder = -1; 
+        }
+    }
+
+    public static Weapon GetActiveWeapon()
+    {
+        return activeWeapon;
     }
 }
