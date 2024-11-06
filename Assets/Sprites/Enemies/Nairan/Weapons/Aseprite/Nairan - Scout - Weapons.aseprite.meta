@@ -250,7 +250,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Scout - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 95ee1f0366193594f814b1d32a00669f
-    - name: Nairan - Scout - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -268,7 +268,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: aa2288e23e8034642b7fa274a19fca50
-    - name: Nairan - Scout - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -277,7 +277,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 60ce38dca7d2bdf43adbe15b2c3900c5
-    - name: Nairan - Scout - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -286,7 +286,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: f34d46b9e415e0a498260a1f0b852911
-    - name: Nairan - Scout - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 96962a3df11e3074ba205d8ba7edd932
-    - name: Nairan - Scout - Weapons_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:

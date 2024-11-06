@@ -330,7 +330,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +339,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1b5d4d6ef5b381148ae2813c72af01f8
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +348,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c3b5010fffac4d447bef6b8c753b2637
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +357,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2dcd97e127b97674f96f7949ee7f5aab
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +366,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4f7b25dc94b3a514195b21cf6452c5d0
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +375,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0efeaed00bba5c046922760ae97bb10f
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +384,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: a2a7a31f35acf0e4c8a2c3ed517bf8a8
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +393,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0dbce310404606549b61fb66b5332bb1
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +402,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1e7162a2efa731241a5d85bb12b4219c
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +411,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 940c2e1e5ed037544892cfedd686b096
-    - name: Kla'ed - Torpedo Ship - Engine_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

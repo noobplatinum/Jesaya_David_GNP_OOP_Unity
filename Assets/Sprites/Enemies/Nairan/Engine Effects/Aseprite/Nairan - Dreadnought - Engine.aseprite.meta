@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Dreadnought - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 32
         height: 14
       spriteId: 1582eda584d45654795d3921e218aa67
-    - name: Nairan - Dreadnought - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 32
         height: 15
       spriteId: 45b15a1ef3e599d4baa22c2f42c82ccb
-    - name: Nairan - Dreadnought - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 32
         height: 16
       spriteId: df386ad3b032af045adf70c9720eddea
-    - name: Nairan - Dreadnought - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 32
         height: 17
       spriteId: 018b7443622539943bb819485d187111
-    - name: Nairan - Dreadnought - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 32
         height: 17
       spriteId: a723d8857b79e5d4882989db0f5510d6
-    - name: Nairan - Dreadnought - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 34
         height: 18
       spriteId: 30f35c8abf2bc3b46ad6f1f71170ab61
-    - name: Nairan - Dreadnought - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 34
         height: 14
       spriteId: 4caebf68abb27284e9e473f17ace6ff5
-    - name: Nairan - Dreadnought - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

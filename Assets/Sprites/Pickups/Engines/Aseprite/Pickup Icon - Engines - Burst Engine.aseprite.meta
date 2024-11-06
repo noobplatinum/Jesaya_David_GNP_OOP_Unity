@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Engines - Burst Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 47ba0a6dbbc247847a5d2100fc10bbbc
-    - name: Pickup Icon - Engines - Burst Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 9640d85344c779a4bae2a560216de685
-    - name: Pickup Icon - Engines - Burst Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 91f1cd1702940494687af334c3590992
-    - name: Pickup Icon - Engines - Burst Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 48d5473287332e54892eae6589d384f7
-    - name: Pickup Icon - Engines - Burst Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 195f86e1827fea14996b971d8408529e
-    - name: Pickup Icon - Engines - Burst Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 2138ce37ed0a5064d8c6f22a74161f22
-    - name: Pickup Icon - Engines - Burst Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 99b5c02860942f645a3ac3fdda99d348
-    - name: Pickup Icon - Engines - Burst Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: bc4479e4635f5024a9eea4af48c6f4dd
-    - name: Pickup Icon - Engines - Burst Engine_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: a8196c7eabd90834e82a3c486cd8b156
-    - name: Pickup Icon - Engines - Burst Engine_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: cc3f31c1b65ab8b41b769ce2f6f876b2
-    - name: Pickup Icon - Engines - Burst Engine_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: b6e48649b697ed34a94e38ba1af78af8
-    - name: Pickup Icon - Engines - Burst Engine_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: ad7500d29b4df6c46ae323bb8764475e
-    - name: Pickup Icon - Engines - Burst Engine_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: 1a8fa6e84fbfd694cb958107df698caf
-    - name: Pickup Icon - Engines - Burst Engine_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: b59b78fb4f5ca424788649a095487190
-    - name: Pickup Icon - Engines - Burst Engine_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

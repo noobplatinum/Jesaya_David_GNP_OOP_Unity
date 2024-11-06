@@ -310,7 +310,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Support ship - Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         width: 28
         height: 28
       spriteId: bac09772075d9db47b022e0d4764eda7
-    - name: Kla'ed - Support ship - Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +328,7 @@ ScriptedImporter:
         width: 28
         height: 28
       spriteId: aebc58e750428bf47bc6e2e2ad0339ad
-    - name: Kla'ed - Support ship - Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +337,7 @@ ScriptedImporter:
         width: 28
         height: 28
       spriteId: ee249b813d1ed5c488440d2b47873a89
-    - name: Kla'ed - Support ship - Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +346,7 @@ ScriptedImporter:
         width: 28
         height: 28
       spriteId: 827c57ba389ef584cb3b2695d85223a3
-    - name: Kla'ed - Support ship - Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         width: 52
         height: 46
       spriteId: 63820f9180bbc0747a0f2b99a5732741
-    - name: Kla'ed - Support ship - Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +364,7 @@ ScriptedImporter:
         width: 54
         height: 44
       spriteId: da7e5d65777154a46b0e11dd9b8a32b1
-    - name: Kla'ed - Support ship - Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +373,7 @@ ScriptedImporter:
         width: 25
         height: 25
       spriteId: e394f69ac7685534a99f20e1e1cde75e
-    - name: Kla'ed - Support ship - Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +382,7 @@ ScriptedImporter:
         width: 49
         height: 34
       spriteId: aa6387c7b2fafc245af0c70f190504cd
-    - name: Kla'ed - Support ship - Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:

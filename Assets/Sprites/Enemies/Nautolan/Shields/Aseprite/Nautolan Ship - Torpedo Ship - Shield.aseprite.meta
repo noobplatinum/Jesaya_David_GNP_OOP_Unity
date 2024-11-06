@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1a1e2365d35e12b47afdb52d6e1760c2
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c9a1982a6df679242bc1686d233bd745
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: da669e4cc9689904b97a730839ce5ff4
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0a3b87a21312aa6448193c040fd81856
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: bf64c16ad4e13cf42a766765d8bd1bdf
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 245ab522e00d7cd4aa6d7bc86dc1c9e6
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e8558a510e020e2439c0db8a8bc737a0
-    - name: Nautolan Ship - Torpedo Ship - Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 9e07b881694fb28468944580bf53f2a1
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 62ebc94ce6ed64845af97db7109841a5
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 98784dc155e655243afcefe30ae7bf0a
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f5c8e27d11a0a0e4cab10087cb429530
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 43f4620ea0c224849a6a33e5e60f2ba4
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: a8286802b2f781b4bae67f68bbd7b14f
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 318ebc991fd8eee48bccae1b1e0c32d3
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b1fcab3fa27f5034fb198bd80da6c866
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 12e1a9216f7fce94c8e3d0f5c98fb23e
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 08c775a6b3383c04a9f66f6e85e2c889
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 68205609abecfa94ca2d9a58d8722584
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 34b37be59a72daa49b8f1a540285dde0
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 99664fb569f99df44827e788a52ac176
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 29ba3dc32061e554385e58b519d3dbd2
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 332b616bb6704124a84f02cd49a88a71
-    - name: Nairan - Torpedo Ship -  Destruction_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:

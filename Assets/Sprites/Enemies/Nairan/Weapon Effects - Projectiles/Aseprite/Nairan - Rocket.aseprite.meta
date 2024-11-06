@@ -210,7 +210,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Rocket_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +219,7 @@ ScriptedImporter:
         width: 9
         height: 16
       spriteId: 3ce3fbd54183d404f953613a6ea0b2d5
-    - name: Nairan - Rocket_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +228,7 @@ ScriptedImporter:
         width: 9
         height: 16
       spriteId: 4daec3cb3e77b744489024a3fa8194ff
-    - name: Nairan - Rocket_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +237,7 @@ ScriptedImporter:
         width: 9
         height: 16
       spriteId: 1a4b8120ee6258e409171249bb3753bb
-    - name: Nairan - Rocket_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:

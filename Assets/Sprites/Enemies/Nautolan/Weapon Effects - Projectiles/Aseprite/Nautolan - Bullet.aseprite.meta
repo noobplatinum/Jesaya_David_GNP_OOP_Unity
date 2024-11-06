@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan - Bullet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 2d1e13c2c20a146459fd0e560b7a8fec
-    - name: Nautolan - Bullet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 7d3d58d119e8b234aa1c5b569c2b0ac4
-    - name: Nautolan - Bullet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 5ec581c5f3fb9ec4abc7872e00caa1b7
-    - name: Nautolan - Bullet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 891e365eacb9aaf49bdc93116ebc4031
-    - name: Nautolan - Bullet_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: e6698ede66b65e6439dc0393bc4f197d
-    - name: Nautolan - Bullet_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 2bd2203bc38456b41abd6c77ecb1d549
-    - name: Nautolan - Bullet_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 9
         height: 12
       spriteId: 21ac46ff5c9a0fc4e8c4fe8045b4a95a
-    - name: Nautolan - Bullet_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

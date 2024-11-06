@@ -330,7 +330,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Bomber - Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +339,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4f280c7a51a46b94b87dbfb19ff7c879
-    - name: Nautolan Ship - Bomber - Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +348,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1184bf48be035284c995c44c64f79855
-    - name: Nautolan Ship - Bomber - Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +357,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0c061f8366e80bf42ae6244269d6829b
-    - name: Nautolan Ship - Bomber - Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +366,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8f381ce99a1d97648a98d20d0c8e9a99
-    - name: Nautolan Ship - Bomber - Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +375,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 346fb5046d968de4bb3e802428dac584
-    - name: Nautolan Ship - Bomber - Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +384,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 85dabfd827a117c429710c26f3647092
-    - name: Nautolan Ship - Bomber - Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +393,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1770182f86dc47945a3940deeef29dc6
-    - name: Nautolan Ship - Bomber - Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +402,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 44b8e09f4f16ff542ad161b064e41ce3
-    - name: Nautolan Ship - Bomber - Shield_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +411,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7d7d40e901f711245b006b9509b535fc
-    - name: Nautolan Ship - Bomber - Shield_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

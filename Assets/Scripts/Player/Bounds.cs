@@ -18,7 +18,7 @@ public class Bounds : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 viewPos = transform.position;
-        viewPos.x = Mathf.Clamp(viewPos.x, screenB.x * -1 + objectWidth, screenB.x - objectWidth - 0.3f);
+        viewPos.x = Mathf.Clamp(viewPos.x, screenB.x * -1 + objectWidth + 0.3f, screenB.x - objectWidth - 0.3f);
         viewPos.y = Mathf.Clamp(viewPos.y, screenB.y * -1 + objectHeight, screenB.y - objectHeight - 0.7f);
         transform.position = viewPos;
     }

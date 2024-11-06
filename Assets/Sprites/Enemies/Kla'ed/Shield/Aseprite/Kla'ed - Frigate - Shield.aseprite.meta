@@ -930,7 +930,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Frigate - Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -939,7 +939,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8d0d506cf70a12c4aa04ee345cc87b40
-    - name: Kla'ed - Frigate - Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -948,7 +948,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5c036e4c859c2514990ac9afe24789e6
-    - name: Kla'ed - Frigate - Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -957,7 +957,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7474d479ea0acd24c82e4b29454b3651
-    - name: Kla'ed - Frigate - Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -966,7 +966,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 3c001befad2d514479c5649bf0ecbb60
-    - name: Kla'ed - Frigate - Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -975,7 +975,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 260cc246bfbccc046901ae109b93a4a3
-    - name: Kla'ed - Frigate - Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -984,7 +984,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 26d70ce7ad87c9146abbb2495215ecbd
-    - name: Kla'ed - Frigate - Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -993,7 +993,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 214a0243741e0b747bae964b42e456f4
-    - name: Kla'ed - Frigate - Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1002,7 +1002,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7659285632e8e564991de851d19b6dea
-    - name: Kla'ed - Frigate - Shield_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1011,7 +1011,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2c852c38e5c27ac448c2bdd83c6acb63
-    - name: Kla'ed - Frigate - Shield_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1020,7 +1020,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d46aac373b1232747b5c41a536ba67f9
-    - name: Kla'ed - Frigate - Shield_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1029,7 +1029,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 825e83847c48f0247b8f8837992529af
-    - name: Kla'ed - Frigate - Shield_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1038,7 +1038,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: acc1c3a133dc2a74e9e4f422cb5bbf1d
-    - name: Kla'ed - Frigate - Shield_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1047,7 +1047,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b42916443356747489e1286ccd333c42
-    - name: Kla'ed - Frigate - Shield_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1056,7 +1056,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e00abe384ff994f4ab52ff9b4c0d71dc
-    - name: Kla'ed - Frigate - Shield_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1065,7 +1065,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5ca7664892bf7f54096fed74f2dda786
-    - name: Kla'ed - Frigate - Shield_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1074,7 +1074,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 909526a9417f55d4e980b904d9c08742
-    - name: Kla'ed - Frigate - Shield_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 32439e0bddcb7594baf4ae044806d096
-    - name: Kla'ed - Frigate - Shield_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1092,7 +1092,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b32a34024814f21438580bf1c83c9984
-    - name: Kla'ed - Frigate - Shield_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1101,7 +1101,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: a01b3c02cf0b46949858631ca06cbec9
-    - name: Kla'ed - Frigate - Shield_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1110,7 +1110,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e4bfd12b43fd8a5448fafd3fd49f6fcd
-    - name: Kla'ed - Frigate - Shield_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1119,7 +1119,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b52ad3696859a344ba55fbfdb55c62ce
-    - name: Kla'ed - Frigate - Shield_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1128,7 +1128,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8f596c464fca27a4eb376a75abc7b6a5
-    - name: Kla'ed - Frigate - Shield_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1137,7 +1137,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7a7c4bcfcfe29a5479d22dbfb60f8e9b
-    - name: Kla'ed - Frigate - Shield_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1146,7 +1146,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 936415e2e7945d245970c5728685198e
-    - name: Kla'ed - Frigate - Shield_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1155,7 +1155,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6310e5fb78bc7cc4b8e53a9c730150d4
-    - name: Kla'ed - Frigate - Shield_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1164,7 +1164,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: eb7987de2ddc3304f989594568056ac3
-    - name: Kla'ed - Frigate - Shield_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1173,7 +1173,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 27ed5bfe5282bab42b7460be3fdd938d
-    - name: Kla'ed - Frigate - Shield_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1182,7 +1182,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5c98a089440410c4dbb6cca8f516b727
-    - name: Kla'ed - Frigate - Shield_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1191,7 +1191,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 589f5ab00d41ded488610749bb231a8b
-    - name: Kla'ed - Frigate - Shield_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1200,7 +1200,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 33f470408f434954d82fa4459ad71828
-    - name: Kla'ed - Frigate - Shield_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1209,7 +1209,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4b96bf5dffce07c40919025d754b616e
-    - name: Kla'ed - Frigate - Shield_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1218,7 +1218,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c0547258c4e6e0a44a2937ed4ce358cf
-    - name: Kla'ed - Frigate - Shield_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1227,7 +1227,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1a60b082ae74eb647b59ab5f01bd1735
-    - name: Kla'ed - Frigate - Shield_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1236,7 +1236,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 92303465149cd6343bd5cef80d20b267
-    - name: Kla'ed - Frigate - Shield_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1245,7 +1245,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e6641cd4d2069b24f9e2de4c7e8e5ccb
-    - name: Kla'ed - Frigate - Shield_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1254,7 +1254,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: adb5c175d60abbc459a3ef0d3248d0d9
-    - name: Kla'ed - Frigate - Shield_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1263,7 +1263,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 112db82efc213a54c915d752855fcd9d
-    - name: Kla'ed - Frigate - Shield_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1272,7 +1272,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f27a77671e83770478f95417c2d46cf7
-    - name: Kla'ed - Frigate - Shield_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1281,7 +1281,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b22a3712987543e4490e7f535e389670
-    - name: Kla'ed - Frigate - Shield_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:

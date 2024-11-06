@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Bomber -  Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 7487857d2adff5444a10127dd1dcf574
-    - name: Nairan - Bomber -  Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 58a0024bae69f43448cae10cfa559b6a
-    - name: Nairan - Bomber -  Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 4741a9bf35756284d82e8069c381a4ff
-    - name: Nairan - Bomber -  Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: edff4f2a541e7b54b9a90c7faa538173
-    - name: Nairan - Bomber -  Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: bf2c525fb40d76c4f82ea35fcf3ccd02
-    - name: Nairan - Bomber -  Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: 2f852a51bb6e9374c83febf1aee53949
-    - name: Nairan - Bomber -  Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: c574c71e73408374bb2d6bfa74584fcb
-    - name: Nairan - Bomber -  Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: d0179deafc824914b8785505cec3c8fb
-    - name: Nairan - Bomber -  Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 44
         height: 44
       spriteId: 2902a746303a854439beca15db07cf62
-    - name: Nairan - Bomber -  Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: a0d912bd4ef56714ab62834de01000e8
-    - name: Nairan - Bomber -  Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 24
         height: 24
       spriteId: 229982ac4af8bcd4fa641fc623a7f0b9
-    - name: Nairan - Bomber -  Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 14
         height: 14
       spriteId: 2f1316f88fd450446b0b405e36ce9e31
-    - name: Nairan - Bomber -  Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: 3f5a6469d8a91da4c8ecf5d610f2ff2a
-    - name: Nairan - Bomber -  Destruction_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 6
         height: 6
       spriteId: 44820477089d4ce43b0549bcea92bfa9
-    - name: Nairan - Bomber -  Destruction_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 12
         height: 12
       spriteId: fa8ae470cbb6d124cbd97d37d0af6ed7
-    - name: Nairan - Bomber -  Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:

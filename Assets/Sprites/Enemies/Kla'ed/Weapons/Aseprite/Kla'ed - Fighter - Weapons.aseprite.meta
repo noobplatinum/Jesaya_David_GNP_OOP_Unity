@@ -250,7 +250,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Fighter - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 54476ec9edb18e240a69dfcff277fa59
-    - name: Kla'ed - Fighter - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -268,7 +268,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 3a4cf6f963cbfde4195be86ebfb38529
-    - name: Kla'ed - Fighter - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -277,7 +277,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 89097b3a8ea7af54fa662e624b466250
-    - name: Kla'ed - Fighter - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -286,7 +286,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: fc5db4c89b5c21c43ac601965ef2ab51
-    - name: Kla'ed - Fighter - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 4d038b2e2e623d54cb957ac3580c9518
-    - name: Kla'ed - Fighter - Weapons_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:

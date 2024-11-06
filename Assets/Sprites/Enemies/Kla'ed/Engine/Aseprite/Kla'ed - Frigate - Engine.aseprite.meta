@@ -370,7 +370,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Frigate - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: df06991489e73704197da86f1398a0b1
-    - name: Kla'ed - Frigate - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -388,7 +388,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7c18d94e15def304c99859bda776233b
-    - name: Kla'ed - Frigate - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -397,7 +397,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d1c45b2faecbe384398961688e74b26b
-    - name: Kla'ed - Frigate - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -406,7 +406,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f8e470b108cf8bf4ca9d8dbc52830135
-    - name: Kla'ed - Frigate - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -415,7 +415,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f2eacc996e678f14b9943f14b25e7265
-    - name: Kla'ed - Frigate - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -424,7 +424,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e713a21a23acfe541a5632c561d0ad3c
-    - name: Kla'ed - Frigate - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -433,7 +433,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 32563f03da665804f95ccff41b5f31e5
-    - name: Kla'ed - Frigate - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -442,7 +442,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2ffa0213bb0ad3147abb2bd9dd5b1440
-    - name: Kla'ed - Frigate - Engine_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -451,7 +451,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: addd016ecc52996458f82c5ad0fe8e6d
-    - name: Kla'ed - Frigate - Engine_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -460,7 +460,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 928f3e86120027c42a083336703eb252
-    - name: Kla'ed - Frigate - Engine_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -469,7 +469,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 75601eca3aa08a3409744e0a60d25823
-    - name: Kla'ed - Frigate - Engine_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:

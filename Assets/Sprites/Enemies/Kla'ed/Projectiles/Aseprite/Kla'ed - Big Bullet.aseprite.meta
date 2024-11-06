@@ -210,7 +210,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Big Bullet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +219,7 @@ ScriptedImporter:
         width: 6
         height: 9
       spriteId: dacdba827a6afb64f86e4acd941b2779
-    - name: Kla'ed - Big Bullet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +228,7 @@ ScriptedImporter:
         width: 4
         height: 11
       spriteId: 41b782f4e7dff494ea62361850224985
-    - name: Kla'ed - Big Bullet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +237,7 @@ ScriptedImporter:
         width: 2
         height: 12
       spriteId: 6fe6aa38ba54e4d468884d5dd14a5c7c
-    - name: Kla'ed - Big Bullet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:

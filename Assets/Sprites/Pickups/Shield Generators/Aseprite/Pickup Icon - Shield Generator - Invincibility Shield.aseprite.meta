@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 0ea1941ad00998e4d889d3450e6b9967
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 4120a50a4b93673409ec116ec48f1df5
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 22fe87c74b6860843a1da7a6bb30ef37
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 96145601df9c6964eaf2438e7fc2e36b
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: beb3c7967c011c14aab73de61edf883f
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: c7e044488ab2a4841ba6d353bb7638e1
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: e039cd359f50edd4c8bdba381b4d15da
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: ec36b82a2e572ac4c981fafe53bb809e
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 08a3df3d4ae5f544f973c3163ecbfbab
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: cf4b8513605e9264486dccc2413521da
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 78aec84f83c4dc94680de6553dd5a042
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: c3f987d0350feca408c24c4a57874df4
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: d7702afc0f491b44bb86de5efac1c01b
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 32
         height: 30
       spriteId: 798c66e37163dc040b07ad47aefb0ee8
-    - name: Pickup Icon - Shield Generator - Invincibility Shield_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

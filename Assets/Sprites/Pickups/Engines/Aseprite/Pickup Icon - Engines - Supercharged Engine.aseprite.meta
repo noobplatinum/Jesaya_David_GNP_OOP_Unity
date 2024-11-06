@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 44a5c63293a25194ea93389a6dcf86d5
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: ac9322d6ed30d334d9320dacd7c344a8
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 3d648e2dff2728a4688118a091d81e4f
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: ed48d9eadb3818c49a2d0a2a2495621d
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 0b31d1b628fb46840af3f7e0feed3791
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 3fce0b0a77ad2cf44b91ef8a6acc0456
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: dfc47189875d05f4b88e32f1f1c9839c
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: b0ff57722dc11a9429e4482b66e3057a
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: e22ec0d8d9cae8542ba3a76283a87ebb
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 4c01526573f4c1f48aa4a424853ead83
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 7bfe93f86def369488b7f8151750d80a
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: e5ccb086c8353ab4685ba441bfb0ac9d
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: f421b71e91a24794390f91a1eebaedce
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 24
         height: 16
       spriteId: 6dfa45b5014f2e2469b9372205bd5023
-    - name: Pickup Icon - Engines - Supercharged Engine_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

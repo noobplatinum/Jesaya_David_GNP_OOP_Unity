@@ -190,7 +190,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Torpedo_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -199,7 +199,7 @@ ScriptedImporter:
         width: 11
         height: 32
       spriteId: 2551a9c2b4cbe744d9211279e857dff9
-    - name: Kla'ed - Torpedo_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -208,7 +208,7 @@ ScriptedImporter:
         width: 11
         height: 32
       spriteId: 005eb70a3010bdc4e8d8548a0701a96c
-    - name: Kla'ed - Torpedo_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:

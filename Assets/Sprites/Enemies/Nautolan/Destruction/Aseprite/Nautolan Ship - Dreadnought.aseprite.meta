@@ -370,7 +370,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Dreadnought_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: 951b13b102e457444851215c58060335
-    - name: Nautolan Ship - Dreadnought_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -388,7 +388,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: 03ad980c9ad53b84baaded87dc51ce06
-    - name: Nautolan Ship - Dreadnought_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -397,7 +397,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: 21120c0f95f413a41893c9f77d17add7
-    - name: Nautolan Ship - Dreadnought_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -406,7 +406,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: 1331f6d4fd4b9d84083edf816acb1959
-    - name: Nautolan Ship - Dreadnought_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -415,7 +415,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: d67129e6277bcfb47b3c3cd621e6dcaf
-    - name: Nautolan Ship - Dreadnought_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -424,7 +424,7 @@ ScriptedImporter:
         width: 72
         height: 97
       spriteId: d92222d42b69a214399d3d70f2a48613
-    - name: Nautolan Ship - Dreadnought_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -433,7 +433,7 @@ ScriptedImporter:
         width: 49
         height: 89
       spriteId: 131a9b5b32a883a4ca5694aa34dd1f43
-    - name: Nautolan Ship - Dreadnought_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -442,7 +442,7 @@ ScriptedImporter:
         width: 58
         height: 95
       spriteId: 988d4bd9ca7e2dc418d03fdf85a5c358
-    - name: Nautolan Ship - Dreadnought_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -451,7 +451,7 @@ ScriptedImporter:
         width: 66
         height: 99
       spriteId: 41dcda5d8fced904f852bc9cd8b19fc8
-    - name: Nautolan Ship - Dreadnought_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -460,7 +460,7 @@ ScriptedImporter:
         width: 66
         height: 96
       spriteId: 00896510473ac2f458f5f0e754cb1bf4
-    - name: Nautolan Ship - Dreadnought_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -469,7 +469,7 @@ ScriptedImporter:
         width: 66
         height: 88
       spriteId: 06b8237ecc113174ca97f537d9fa96a2
-    - name: Nautolan Ship - Dreadnought_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:

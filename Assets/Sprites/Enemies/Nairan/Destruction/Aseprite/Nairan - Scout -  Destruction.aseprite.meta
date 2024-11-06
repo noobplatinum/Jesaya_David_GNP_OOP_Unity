@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Scout -  Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7dda0e26aaed00c468e061a0eac3695b
-    - name: Nairan - Scout -  Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 50d247ddf3bb2934c9bea8638db21159
-    - name: Nairan - Scout -  Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4eb0030ff85aa7b4e898e8404c393b65
-    - name: Nairan - Scout -  Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ac89bc7dbc5b01646a92f805107d09a8
-    - name: Nairan - Scout -  Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d24addd838d04f64da32b79adc62b300
-    - name: Nairan - Scout -  Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: dbae29b955611eb4a8edadd926de9612
-    - name: Nairan - Scout -  Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6dd8a0ada31e0b84eb8f0c95818d2c11
-    - name: Nairan - Scout -  Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 50faecb7d40ef7c4183fe29c49aaaba6
-    - name: Nairan - Scout -  Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4f7578f904c087843a4ed7be3b98127a
-    - name: Nairan - Scout -  Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 695ffc9dac185754f882f1762215fd87
-    - name: Nairan - Scout -  Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6b72a362c7db07847a13cc8914be49ad
-    - name: Nairan - Scout -  Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f52ad9f113a779648b38cc9acf0f6da9
-    - name: Nairan - Scout -  Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4ce0f5e3b3593f84bacd07b70d8a3373
-    - name: Nairan - Scout -  Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5755a95991da03a49bb225c8bb64b3af
-    - name: Nairan - Scout -  Destruction_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6d51e15c90e562e40ab43924576cbe5f
-    - name: Nairan - Scout -  Destruction_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:

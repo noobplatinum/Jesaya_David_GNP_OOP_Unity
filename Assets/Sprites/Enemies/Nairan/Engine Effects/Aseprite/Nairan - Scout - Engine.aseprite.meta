@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Scout - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2220d1f2bac139640a94338ff39d7de3
-    - name: Nairan - Scout - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6336756c58e13854689796fdca203e4e
-    - name: Nairan - Scout - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 222971194ee59204bae4307d55c9fe1c
-    - name: Nairan - Scout - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 78d4330478d93db46981fdbc8507b629
-    - name: Nairan - Scout - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 69c83d77097a42143a9ccd2fd5e5926c
-    - name: Nairan - Scout - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 39046c1cbbf4e014384690c771fa06be
-    - name: Nairan - Scout - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: bd6c2acb155d6254fa33efa302d37a78
-    - name: Nairan - Scout - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

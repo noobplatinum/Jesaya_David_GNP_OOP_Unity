@@ -270,7 +270,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Main Ship - Weapons - Auto Cannon_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         width: 24
         height: 17
       spriteId: ece02488a433fbb4dbfcc7a7e4de9101
-    - name: Main Ship - Weapons - Auto Cannon_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -288,7 +288,7 @@ ScriptedImporter:
         width: 24
         height: 24
       spriteId: bc2abec55f53de040b16cbdbeba2d793
-    - name: Main Ship - Weapons - Auto Cannon_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -297,7 +297,7 @@ ScriptedImporter:
         width: 24
         height: 26
       spriteId: e3d2e23f6c3f84f41945657f5e8e8f4b
-    - name: Main Ship - Weapons - Auto Cannon_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -306,7 +306,7 @@ ScriptedImporter:
         width: 26
         height: 27
       spriteId: c2ace3dad95fade4f9999140605d97d2
-    - name: Main Ship - Weapons - Auto Cannon_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         width: 29
         height: 27
       spriteId: 20f65afd54810b948b867ed39fdad36e
-    - name: Main Ship - Weapons - Auto Cannon_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -324,7 +324,7 @@ ScriptedImporter:
         width: 27
         height: 21
       spriteId: f5f15a60f05db564fbbfe6845c9b3cdb
-    - name: Main Ship - Weapons - Auto Cannon_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:

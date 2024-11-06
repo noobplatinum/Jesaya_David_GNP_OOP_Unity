@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Support Ship -  Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0b252ab454d79a646883cde61b59ee2e
-    - name: Nairan - Support Ship -  Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: bd72e8ff8c6eb954bba2fd5a6a640a3f
-    - name: Nairan - Support Ship -  Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4633f30399fbc0f4da017ef5963b853f
-    - name: Nairan - Support Ship -  Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b521c4129a6ad41479b705fc05189ed7
-    - name: Nairan - Support Ship -  Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 746cda951eea6034ca1bb209afd292df
-    - name: Nairan - Support Ship -  Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c0bd012c9ccda8e4989623b9a95a30c1
-    - name: Nairan - Support Ship -  Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0b21020cc18ff5840aab03d337dff355
-    - name: Nairan - Support Ship -  Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 3ce322b71c07a694e8a0e27cca627fd7
-    - name: Nairan - Support Ship -  Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2cc6bf11208d6e5409aebc0f7854ca68
-    - name: Nairan - Support Ship -  Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0fdf44531b6208547b4c87c4e7d18b2a
-    - name: Nairan - Support Ship -  Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f187301cca0ac9645a4c1485bb3e442c
-    - name: Nairan - Support Ship -  Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 02457f8a7b0df374088123634ecca90b
-    - name: Nairan - Support Ship -  Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c3c3f470c90f1d34c8751cb720c1aad2
-    - name: Nairan - Support Ship -  Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 723751e7d34a5ac488ff56ad5812ade1
-    - name: Nairan - Support Ship -  Destruction_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 0a895148163f3a94c935c7d8592e064e
-    - name: Nairan - Support Ship -  Destruction_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:

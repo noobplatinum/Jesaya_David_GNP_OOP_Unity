@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Fighter - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 14
         height: 15
       spriteId: 1c323515f14374940ad826d7c48f341a
-    - name: Nairan - Fighter - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 14
         height: 15
       spriteId: 6e210d3b9d1bdff45a0851d0feb2290d
-    - name: Nairan - Fighter - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 14
         height: 13
       spriteId: 56e8fc94f2e526a47a14aaec0bba1f5d
-    - name: Nairan - Fighter - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 14
         height: 14
       spriteId: 0177f6030f904c24fbd10437f7c44046
-    - name: Nairan - Fighter - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 14
         height: 12
       spriteId: 001fdf413de11ea4a83da5a69f4a860d
-    - name: Nairan - Fighter - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 14
         height: 13
       spriteId: 9dd58c35c784e9247808c12d30873050
-    - name: Nairan - Fighter - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 14
         height: 13
       spriteId: 421ae5041976e294c81133328146c16d
-    - name: Nairan - Fighter - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
