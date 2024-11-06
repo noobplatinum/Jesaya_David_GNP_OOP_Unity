@@ -50,4 +50,15 @@ public class Player : MonoBehaviour
         bool isMoving = playerMovement.IsMoving();
         animator.SetBool("IsMoving", isMoving);
     }
+
+    public void SetWeapon(Weapon weapon)
+    {
+        if (weapon != null)
+        {
+            weapon.transform.SetParent(transform);
+            weapon.transform.localPosition = Vector3.zero;
+            weapon.transform.localRotation = Quaternion.identity;
+            weapon.gameObject.SetActive(true);
+        }
+    }
 }
