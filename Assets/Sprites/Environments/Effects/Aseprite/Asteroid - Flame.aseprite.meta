@@ -190,7 +190,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Asteroid - Flame_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -199,7 +199,7 @@ ScriptedImporter:
         width: 64
         height: 34
       spriteId: 9dbff7ef8d3b5994db62ce313c65f279
-    - name: Asteroid - Flame_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -208,7 +208,7 @@ ScriptedImporter:
         width: 58
         height: 34
       spriteId: 5f9676d45aa08ce44b06a090296da35d
-    - name: Asteroid - Flame_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:

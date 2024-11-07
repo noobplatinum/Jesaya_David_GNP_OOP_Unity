@@ -210,7 +210,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Main Ship - Engines - Big Pulse Engine - Powering_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +219,7 @@ ScriptedImporter:
         width: 16
         height: 11
       spriteId: e113a4622321db1469e07dc282052c9f
-    - name: Main Ship - Engines - Big Pulse Engine - Powering_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +228,7 @@ ScriptedImporter:
         width: 16
         height: 11
       spriteId: bba6604364c461148ac351fa5a4ff3fe
-    - name: Main Ship - Engines - Big Pulse Engine - Powering_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +237,7 @@ ScriptedImporter:
         width: 16
         height: 11
       spriteId: 27e1c5f8003375f4e8df44d4a32b98d8
-    - name: Main Ship - Engines - Big Pulse Engine - Powering_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:

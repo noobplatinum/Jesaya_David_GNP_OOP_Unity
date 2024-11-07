@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: fc29e21fc02b3d64fb3a8ca3c08d6f50
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4949da00bd49fed4baf033596ed10b12
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b71f2da97daa5724980c159052ccd4ce
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 9a37bf6c3bfdc3c4a9f91aef36bf8b83
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6f54da1b0adb34d4e9626b3eccdfbc72
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ea9d560229231574d9ade20b9d4b7a81
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6d12cd6525324ba4e9b3d2ec4ca8c04a
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c5c2c05ac2597874699745ecba4cc2bc
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c66cfbab48fdd814aacfdfed277bba90
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 34f842e31d8749d44bae6f5d7c3f3637
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 32fea9fdebd63c645afa513b31d9f051
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2547c4dc54b4cdc44a94686f77ad847a
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: a5eddd5f1b819954aa81435eee0c7698
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 744e6cd318564724e9df559098cc08b6
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 83db2df0489d8a047a785b3f39472475
-    - name: Nautolan Ship - Torpedo Ship - Weapons_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

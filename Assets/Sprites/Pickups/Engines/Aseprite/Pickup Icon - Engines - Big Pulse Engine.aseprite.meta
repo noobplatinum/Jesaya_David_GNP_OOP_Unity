@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 29d9941fe255b3f4dbd30ceb9d9cb655
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 9e2b90141d8a2114d8a85e380a466a7e
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: bf29b00818cafe84d882cb3cca9037bc
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 9712cbfee78a5d2408774d0a6df63510
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 35b2a5cd15faac244812c0e4f8eaa1f4
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: f474caca6f1af97469736da79aa2798f
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 5e47d91312bec0245b984450b31bdc5f
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: bb67d1525ae1fb4429fc38a48ff5c9a6
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: b8f33bb184bf8c24a81796a45d927bf1
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: e28b2f7d6e6683349ba466260c32bdb7
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 5708bc4241c58934d9513d7b39d98b00
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 3a7976569020cd44b8ccdcd6e5bb77be
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: b3fff855b44ba0341af846f69373a305
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 18
         height: 21
       spriteId: 8d25ad907233f8f45a2386ad5c2057fb
-    - name: Pickup Icon - Engines - Big Pulse Engine_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

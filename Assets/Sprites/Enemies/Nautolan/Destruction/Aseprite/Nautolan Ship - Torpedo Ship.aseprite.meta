@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Torpedo Ship_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8964197d84591364ab4bb3e9eef4e72a
-    - name: Nautolan Ship - Torpedo Ship_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 26d4406477a20c04da8474db1b8fe4a4
-    - name: Nautolan Ship - Torpedo Ship_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 697f9577e2e74bd47afed7f7067dc687
-    - name: Nautolan Ship - Torpedo Ship_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: dd1039225ba65e14cb033ce7de4e51c1
-    - name: Nautolan Ship - Torpedo Ship_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 3aff543f273c292439f4a6b60bebf843
-    - name: Nautolan Ship - Torpedo Ship_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d6002dfa5a63b664299eba21d8e57b44
-    - name: Nautolan Ship - Torpedo Ship_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 38dfe00dbd07c56408d2050ae7cc0ce3
-    - name: Nautolan Ship - Torpedo Ship_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

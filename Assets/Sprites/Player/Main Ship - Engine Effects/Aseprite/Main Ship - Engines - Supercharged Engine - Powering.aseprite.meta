@@ -210,7 +210,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Main Ship - Engines - Supercharged Engine - Powering_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +219,7 @@ ScriptedImporter:
         width: 22
         height: 11
       spriteId: fe2d7562e7801a54eaa6f316ae2b8eec
-    - name: Main Ship - Engines - Supercharged Engine - Powering_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +228,7 @@ ScriptedImporter:
         width: 22
         height: 10
       spriteId: d6d3f35792fb27246923c0792e9df611
-    - name: Main Ship - Engines - Supercharged Engine - Powering_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +237,7 @@ ScriptedImporter:
         width: 22
         height: 8
       spriteId: 4fb2f63147b702f499e785115a4dd609
-    - name: Main Ship - Engines - Supercharged Engine - Powering_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:

@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Torpedo Ship - Engine_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5a0324e4a518e3146bc3fd8c5635f01b
-    - name: Nairan - Torpedo Ship - Engine_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 22bdd68c55434c947a6283f4d53b1fdf
-    - name: Nairan - Torpedo Ship - Engine_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2852a395bb2155b44b40f0966e4aa776
-    - name: Nairan - Torpedo Ship - Engine_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8e0e9b59d064be246a45d48bdec188d9
-    - name: Nairan - Torpedo Ship - Engine_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ead54e8dc05482842b1b3a4bedb0e562
-    - name: Nairan - Torpedo Ship - Engine_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 92f73a70d59596840b6c4192263fe822
-    - name: Nairan - Torpedo Ship - Engine_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 452f79df907b0e147886de4f0a223de4
-    - name: Nairan - Torpedo Ship - Engine_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

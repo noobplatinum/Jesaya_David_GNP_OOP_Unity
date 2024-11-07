@@ -370,7 +370,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Torpedo Ship - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 65f2845208ee9484e86bf771875c7ae7
-    - name: Nairan - Torpedo Ship - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -388,7 +388,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 387cb2421b5529c4d93b8d9979d5da97
-    - name: Nairan - Torpedo Ship - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -397,7 +397,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1f24de51848f9af429d3b67fcd83be08
-    - name: Nairan - Torpedo Ship - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -406,7 +406,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7805113ef99e4484e8f32bbf189d4af5
-    - name: Nairan - Torpedo Ship - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -415,7 +415,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7435ceedb858ac245a5d701426afd60c
-    - name: Nairan - Torpedo Ship - Weapons_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -424,7 +424,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 78f573c5f77416043830831898e4cbad
-    - name: Nairan - Torpedo Ship - Weapons_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -433,7 +433,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1af39ea1f9be0ec4880784a38c500815
-    - name: Nairan - Torpedo Ship - Weapons_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -442,7 +442,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d014eb217ade5544da183fc760ec937d
-    - name: Nairan - Torpedo Ship - Weapons_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -451,7 +451,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7a2eac638eeb6ef4b84ee0f9bff15e9e
-    - name: Nairan - Torpedo Ship - Weapons_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -460,7 +460,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4e601830fa4a22c47bd3a47edebd8535
-    - name: Nairan - Torpedo Ship - Weapons_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -469,7 +469,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c0bd6c7f80cda8b47b4f003a56225035
-    - name: Nairan - Torpedo Ship - Weapons_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:

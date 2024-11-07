@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Fighter - Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 43
         height: 33
       spriteId: ddd6067f9be9f104db0f2632ecf89bfd
-    - name: Kla'ed - Fighter - Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 62
         height: 51
       spriteId: 74b75093301b1b5419641b2ed113dcbe
-    - name: Kla'ed - Fighter - Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 64
         height: 56
       spriteId: 5d591851d53033e4fb2a03b221461019
-    - name: Kla'ed - Fighter - Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: 2ae9d2fbd74ec844ab431fc08755f856
-    - name: Kla'ed - Fighter - Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: d0a6356e9cb92e94b82fc7df6b12275b
-    - name: Kla'ed - Fighter - Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 24
         height: 22
       spriteId: b1dc5f83a8d7f1443a949e738f8948b9
-    - name: Kla'ed - Fighter - Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 25
         height: 25
       spriteId: dceb2f995f7dbf44589fab944eb07fbc
-    - name: Kla'ed - Fighter - Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

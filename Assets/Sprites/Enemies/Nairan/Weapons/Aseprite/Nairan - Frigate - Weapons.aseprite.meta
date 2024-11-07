@@ -230,7 +230,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Frigate - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6b757b5c3df02ac4183894435abd89e9
-    - name: Nairan - Frigate - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -248,7 +248,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b758ad5ff5c20d542ae4f2f290c2eed8
-    - name: Nairan - Frigate - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -257,7 +257,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 005ca1485c68d454b96b748757b73ebb
-    - name: Nairan - Frigate - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -266,7 +266,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2e6116616d732b8499758014b0c4d1fb
-    - name: Nairan - Frigate - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:

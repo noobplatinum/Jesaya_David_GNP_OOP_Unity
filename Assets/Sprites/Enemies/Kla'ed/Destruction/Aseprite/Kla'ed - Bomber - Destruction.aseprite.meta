@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Bomber - Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 30
         height: 27
       spriteId: acd5233a805c51c48b1bf915446067eb
-    - name: Kla'ed - Bomber - Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 43
         height: 42
       spriteId: a63584ed76fa2fe46a0b00c02bfe4e9e
-    - name: Kla'ed - Bomber - Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 61
         height: 60
       spriteId: 27aa2547bc688ea47b05137bed674b6e
-    - name: Kla'ed - Bomber - Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 62
         height: 57
       spriteId: e1c5afef70854e74c9562cbd52c9ef99
-    - name: Kla'ed - Bomber - Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 30
         height: 27
       spriteId: bd283268f586c8f4fbdab835d4b55edc
-    - name: Kla'ed - Bomber - Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 30
         height: 27
       spriteId: ef263736de0e6a34fa9747bf3a0c2c17
-    - name: Kla'ed - Bomber - Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 25
         height: 25
       spriteId: 2fb567fa71b2a164a86cc19bc66c55a2
-    - name: Kla'ed - Bomber - Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

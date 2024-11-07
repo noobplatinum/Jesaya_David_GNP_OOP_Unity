@@ -310,7 +310,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         width: 56
         height: 22
       spriteId: eea677ee637095341859c6b4a2b4f359
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +328,7 @@ ScriptedImporter:
         width: 56
         height: 22
       spriteId: 0545dc3a8b9919747a375e606372322b
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +337,7 @@ ScriptedImporter:
         width: 56
         height: 22
       spriteId: 69995280e94fe8e44bb7ec20f61c7136
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +346,7 @@ ScriptedImporter:
         width: 56
         height: 22
       spriteId: ff7d84b0a15cb904da82db816ce97e36
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         width: 55
         height: 40
       spriteId: 8b2409ddf19760041ba786cb470d5697
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +364,7 @@ ScriptedImporter:
         width: 57
         height: 49
       spriteId: da692f7a4d5ff9a4ba4a47e3a27c4bbd
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +373,7 @@ ScriptedImporter:
         width: 55
         height: 48
       spriteId: 54788838092010b4096d37255069925f
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +382,7 @@ ScriptedImporter:
         width: 25
         height: 25
       spriteId: 90d4552f558a37646aa13199993ef27e
-    - name: Kla'ed - Torpedo Ship - Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:

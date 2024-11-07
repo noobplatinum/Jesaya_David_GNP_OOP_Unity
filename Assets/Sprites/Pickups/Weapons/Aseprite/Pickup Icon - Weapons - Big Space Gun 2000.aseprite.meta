@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: baa4d2b250da7ca40874279d9782c2ab
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 2c130bb056f9bdd4ea8850027bdc2627
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: b719ef5d518ba1643a642f18b9bfbbfc
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 07a3c45ed0f72fa428881ace279c727b
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 817918712bf4eee4486691e7726430d9
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: e079d8ace17d0a04899e7a573a95a6a7
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 34325adf7dc63474f9b3c6e8b6cef7a4
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 1d646797ea55b084b917ff4663d02818
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 2405f3e2d1333434d934bcd07c6347d4
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: febc69a74d70ec84fafec0327824511a
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 03a5b3ea03f016d48a54d68497d1ffcc
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 443a08819615e8844beffbeae5fbdc79
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: c63144014f5048c4baf6935166bf56d1
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 20
         height: 22
       spriteId: 9272f9717becb534bb571610ecee2c01
-    - name: Pickup Icon - Weapons - Big Space Gun 2000_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

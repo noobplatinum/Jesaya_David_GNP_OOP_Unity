@@ -190,7 +190,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Main Ship - Engines - Base Engine - Idle_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -199,7 +199,7 @@ ScriptedImporter:
         width: 20
         height: 5
       spriteId: e1abe57fdc3c3214c801e97b3541cbc1
-    - name: Main Ship - Engines - Base Engine - Idle_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -208,7 +208,7 @@ ScriptedImporter:
         width: 20
         height: 6
       spriteId: 83eb26b32cd1384469393b84d3d1c1a7
-    - name: Main Ship - Engines - Base Engine - Idle_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:

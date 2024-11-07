@@ -350,7 +350,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -359,7 +359,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: be16f96461ef9d345bbd972ecb46a94b
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -368,7 +368,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: e38ac859b88599542ad28b0dbdf9cf00
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -377,7 +377,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 97134e36a0acab843a8cbdb224d5ed7e
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -386,7 +386,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 2289cf4d3cc54d24a88c5927a105c012
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -395,7 +395,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 58d2c6b7637972b409fe0e62b06b4604
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -404,7 +404,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 4f87bc8bfd8ee6547a12f9af7c1d6b14
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -413,7 +413,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: c53851280c79c3d4fa55aa9bb81318d3
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -422,7 +422,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 6323ac7d103c8184bb3019ea9dc82927
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -431,7 +431,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: f9fdd21d7c8941243a2e5f3154da414d
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -440,7 +440,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 97e9cbbdb67accb48a39cdfd06708759
-    - name: Nautolan Ship - Battlecruiser - Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

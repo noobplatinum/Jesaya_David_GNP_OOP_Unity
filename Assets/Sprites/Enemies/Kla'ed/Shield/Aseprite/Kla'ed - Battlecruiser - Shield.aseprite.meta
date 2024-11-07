@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Battlecruiser - Shield_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 8e79adf143006a4498882ffd875b2dbc
-    - name: Kla'ed - Battlecruiser - Shield_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 773e01c619287fd49a1250557bff6b6f
-    - name: Kla'ed - Battlecruiser - Shield_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: f6473faf87740a04596b2d97930cfd69
-    - name: Kla'ed - Battlecruiser - Shield_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: f0d3bb10383f8324bac3b00516092c72
-    - name: Kla'ed - Battlecruiser - Shield_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 08e8bfaed6a20b145a1a88ed1febcbf8
-    - name: Kla'ed - Battlecruiser - Shield_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: be3470d5c4a28e143843ddc18fc03bbd
-    - name: Kla'ed - Battlecruiser - Shield_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 91dd5a7be6c04e540ad80da72fcf8369
-    - name: Kla'ed - Battlecruiser - Shield_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 9f53d8c6beeffe34ba1f5c076ed53f3a
-    - name: Kla'ed - Battlecruiser - Shield_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 26d713cc5e91b43429dd65eb4e3f6aac
-    - name: Kla'ed - Battlecruiser - Shield_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 2319a9f62506ee14fb3c5648437bda30
-    - name: Kla'ed - Battlecruiser - Shield_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: c221e524bb3e5f0419a73b0c61bd6ac4
-    - name: Kla'ed - Battlecruiser - Shield_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: a972b0620528da94fa877be35e17bd49
-    - name: Kla'ed - Battlecruiser - Shield_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: f5988fdbf69222e46bac5dbbd0e224d2
-    - name: Kla'ed - Battlecruiser - Shield_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: fba973cc97b92094f8954d660ff081f1
-    - name: Kla'ed - Battlecruiser - Shield_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 128
         height: 128
       spriteId: 030d6b6d1c41d6946a3d6c2d94806c60
-    - name: Kla'ed - Battlecruiser - Shield_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:

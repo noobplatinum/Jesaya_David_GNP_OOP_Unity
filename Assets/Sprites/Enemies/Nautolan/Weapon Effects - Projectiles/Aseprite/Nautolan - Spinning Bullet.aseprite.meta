@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan - Spinning Bullet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: 5aec43b8ed7b8354cb51d01b8c636c9f
-    - name: Nautolan - Spinning Bullet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: b2c1aa2e4ec533641b7086b8c308c8a5
-    - name: Nautolan - Spinning Bullet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: d327cc29c6a049642904554f7642024e
-    - name: Nautolan - Spinning Bullet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: 69fdee708f0d77d44b28ab48474dbd4a
-    - name: Nautolan - Spinning Bullet_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: 277666a02c00167408f78e80f142a51f
-    - name: Nautolan - Spinning Bullet_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: db2e2a95b956afc4ba41ec296c62c0c2
-    - name: Nautolan - Spinning Bullet_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 8
         height: 8
       spriteId: 59ccc601679f1c84ca63bb17c632d7c8
-    - name: Nautolan - Spinning Bullet_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

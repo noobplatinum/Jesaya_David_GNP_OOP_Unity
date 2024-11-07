@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 36
         height: 16
       spriteId: e0ec020fe2411e34fba14161530f277c
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 36
         height: 16
       spriteId: 99c6503194be0cf4d85d04e80f5ca8b7
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 36
         height: 17
       spriteId: 0c2ca413ec3833f40b89d34f8b4dca3b
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 36
         height: 16
       spriteId: 4f6fc0e867ea0bc47b1d72f18ae50cec
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 36
         height: 16
       spriteId: a6dad3858f8c6f945afbb1cbbaf702bb
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 36
         height: 16
       spriteId: 1768a9a888419ef4099084e848b2d9de
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 36
         height: 17
       spriteId: 76f551563e95eaa46b3703be2a635cca
-    - name: Nautolan Ship - Battlecruiser - Engine Effect_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

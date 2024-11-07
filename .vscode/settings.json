@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "JesayaDavidGNP_UnityOOP.sln"
+    "dotnet.defaultSolution": "Jesaya_David_GNP_OOP_Unity.sln"
 }

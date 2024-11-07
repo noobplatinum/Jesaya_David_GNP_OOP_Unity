@@ -410,7 +410,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -419,7 +419,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: 03d73f446caadad499239ee85e4f252d
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -428,7 +428,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: 9130914aa35348b49a3e0663efe749ec
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -437,7 +437,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: f1ab193233211cc4f942b035f5321ff6
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -446,7 +446,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: c1d883f78b78e4e48b204afb0be5db35
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -455,7 +455,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: f3a60cc34dd7fcd4a86ed5aa4d793bd6
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -464,7 +464,7 @@ ScriptedImporter:
         width: 72
         height: 88
       spriteId: f18d8f4b7bbd147469fa9e587577fac4
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -473,7 +473,7 @@ ScriptedImporter:
         width: 72
         height: 90
       spriteId: a6385e33e3aa5064dba3e5e3ea2a8787
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -482,7 +482,7 @@ ScriptedImporter:
         width: 72
         height: 94
       spriteId: da96a960f0180704bb623312ced896b0
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -491,7 +491,7 @@ ScriptedImporter:
         width: 49
         height: 89
       spriteId: 8a6692bd81be02c41830389230fb5989
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -500,7 +500,7 @@ ScriptedImporter:
         width: 58
         height: 95
       spriteId: f4403c88a7948ea498d51dc7573ea544
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -509,7 +509,7 @@ ScriptedImporter:
         width: 66
         height: 99
       spriteId: dc5f16a10ad42b044b8af9c425a4cf6c
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -518,7 +518,7 @@ ScriptedImporter:
         width: 66
         height: 96
       spriteId: 03ac775f4719d6643979b2a206c8a506
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -527,7 +527,7 @@ ScriptedImporter:
         width: 66
         height: 88
       spriteId: e5be801c12616264981da3b9706352ab
-    - name: Kla'ed - Battlecruiser - Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:

@@ -430,7 +430,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pickup Icon - Weapons - Rocket_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: 4e2bb6e11be25b94688fffa8068b5cc3
-    - name: Pickup Icon - Weapons - Rocket_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +448,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: c7be6fadf79933a439335cae91c84a16
-    - name: Pickup Icon - Weapons - Rocket_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +457,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: c4b48c1b1a3715641adb372069d95678
-    - name: Pickup Icon - Weapons - Rocket_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +466,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: 00bdf92120665f8408318f5c3619e54d
-    - name: Pickup Icon - Weapons - Rocket_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +475,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: c3dab67861858d0489be0206c2b5c616
-    - name: Pickup Icon - Weapons - Rocket_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +484,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: fdd08d1087ce50347889d332fe4f2dff
-    - name: Pickup Icon - Weapons - Rocket_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: f0c98d8446455fa4b956ff7af1db5652
-    - name: Pickup Icon - Weapons - Rocket_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +502,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: 8d12f3ecd86b5904480a93d1c3336d0c
-    - name: Pickup Icon - Weapons - Rocket_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +511,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: ca72d04ae3a367748be2285002b417bc
-    - name: Pickup Icon - Weapons - Rocket_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +520,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: e5d46b17c1f9ff140836e7eadde6361f
-    - name: Pickup Icon - Weapons - Rocket_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +529,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: eb929846cf948a2439053d04a20016a2
-    - name: Pickup Icon - Weapons - Rocket_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +538,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: df010f85289cd0b4e9d818bf03a053fb
-    - name: Pickup Icon - Weapons - Rocket_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +547,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: f2fd4771fd1fd084abcc7930784fc333
-    - name: Pickup Icon - Weapons - Rocket_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +556,7 @@ ScriptedImporter:
         width: 31
         height: 28
       spriteId: e94fc98c45ee6044cb62a9ddb9baefbc
-    - name: Pickup Icon - Weapons - Rocket_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:

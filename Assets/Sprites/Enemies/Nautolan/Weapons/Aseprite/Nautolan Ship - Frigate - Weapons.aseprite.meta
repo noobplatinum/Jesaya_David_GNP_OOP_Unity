@@ -310,7 +310,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nautolan Ship - Frigate - Weapons_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c1a89da79b469ed45a3731c3d3049798
-    - name: Nautolan Ship - Frigate - Weapons_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +328,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8f20e0763c851294fa8330ad8fa4fd49
-    - name: Nautolan Ship - Frigate - Weapons_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +337,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f7fa32fccafbf7743a1a6462509ca0f9
-    - name: Nautolan Ship - Frigate - Weapons_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +346,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 40ca21d29db21bc46bfc886f7417e048
-    - name: Nautolan Ship - Frigate - Weapons_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8a776647be0e499469417f4dcb1607c9
-    - name: Nautolan Ship - Frigate - Weapons_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +364,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7f34eb4b404efef419330b855364bb8e
-    - name: Nautolan Ship - Frigate - Weapons_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +373,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 99cd14e45c34cb243b2954864bae9bb0
-    - name: Nautolan Ship - Frigate - Weapons_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +382,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1d97e75f70febc143ae2656d2562e506
-    - name: Nautolan Ship - Frigate - Weapons_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:

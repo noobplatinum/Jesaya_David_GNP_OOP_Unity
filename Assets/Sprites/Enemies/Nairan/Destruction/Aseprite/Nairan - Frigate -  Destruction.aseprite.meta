@@ -450,7 +450,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Nairan - Frigate -  Destruction_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +459,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d1604f3068e83c64c87a8807b575fef2
-    - name: Nairan - Frigate -  Destruction_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +468,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 95b228a03a4ce4242bbcaccf6818aaaa
-    - name: Nairan - Frigate -  Destruction_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d7e57ad9768adab4481dbea7b03fef4c
-    - name: Nairan - Frigate -  Destruction_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +486,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ed5752fedb151ef40947bad3079f9dec
-    - name: Nairan - Frigate -  Destruction_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +495,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: da8c38de214cfaa47a437eca5e140f52
-    - name: Nairan - Frigate -  Destruction_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +504,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: c107e9c20d415e442b15223f762a808c
-    - name: Nairan - Frigate -  Destruction_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +513,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 789526441ec80e24790db6161874bc36
-    - name: Nairan - Frigate -  Destruction_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +522,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 6edf81096b63f294e84d0f119edecb61
-    - name: Nairan - Frigate -  Destruction_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +531,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 9a963ab64ea6a084fac0d7c3481a2316
-    - name: Nairan - Frigate -  Destruction_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +540,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 1926dca8c670fec49a3d9233818638c5
-    - name: Nairan - Frigate -  Destruction_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +549,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ba186173a92531f45aa5ae97b39b299b
-    - name: Nairan - Frigate -  Destruction_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +558,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ea9f80605f3a6bb4dbe9beda13182cfc
-    - name: Nairan - Frigate -  Destruction_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +567,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d130962ca04b6c244aad039c3ac9cbe5
-    - name: Nairan - Frigate -  Destruction_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +576,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: f0855e663dacf5744b304c7ebc26061c
-    - name: Nairan - Frigate -  Destruction_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +585,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 2d8049adba7194746808712900a73d67
-    - name: Nairan - Frigate -  Destruction_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
