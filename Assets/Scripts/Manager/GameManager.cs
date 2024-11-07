@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public LevelManager LevelManager { get; private set; }
 
+    [SerializeField] Animator transAnim;
     void Awake()
     {
         if (Instance != null && Instance != this)
