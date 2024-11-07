@@ -5,35 +5,22 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+
     public LevelManager LevelManager { get; private set; }
 
-    private void Awake()
+    void Awake()
     {
-        if (Instance == null)
+        if (Instance != null && Instance != this)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
+            Destroy(this);
             return;
         }
 
-        LevelManager = FindObjectOfType<LevelManager>();
-        
-        //HideAllExceptCameraAndPlayer();
-    }
+        Instance = this;
 
-    private void HideAllExceptCameraAndPlayer()
-    {
-        foreach (GameObject obj in UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects())
-        {
-            if (obj.CompareTag("MainCamera") || obj.CompareTag("Player"))
-            {
-                continue;
-            }
-            obj.SetActive(false);
-        }
-    } 
+        LevelManager = GetComponentInChildren<LevelManager>();
+
+        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(GameObject.Find("Camera"));
+    }
 }

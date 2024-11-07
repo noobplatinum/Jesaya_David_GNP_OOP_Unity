@@ -5,33 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
 
-    private void Awake()
+    void Awake()
     {
-        if (animator == null)
-        {
-            Debug.LogError("Animator not assigned to LevelManager.");
-        }
+        //do Something on Awake E.g. make an object appearence false
     }
 
-    public IEnumerator LoadSceneAsync(string sceneName)
+    IEnumerator LoadSceneAsync(string sceneName)
     {
-        animator.SetTrigger("StartTransition");
+        yield return new WaitForSeconds(1);
 
-        yield return new WaitForSeconds(1f); 
+        SceneManager.LoadSceneAsync(sceneName);
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
-
-        animator.SetTrigger("EndTransition");
+        Player.Instance.transform.position = new(0, -4.5f);
     }
 
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        StartCoroutine(LoadSceneAsync(sceneName));
     }
 }
