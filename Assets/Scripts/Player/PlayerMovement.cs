@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() // Update rutin
     {
+        stopClamp = stopClamp / 5;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         moveDirection = new Vector2(horizontalInput, verticalInput);

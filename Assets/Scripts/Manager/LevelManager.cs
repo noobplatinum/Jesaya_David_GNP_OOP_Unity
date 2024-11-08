@@ -10,17 +10,14 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-        // Find the Animator component in the "SceneTransition" object
         if (sceneTransitionAnimator != null)
         {
-            Debug.Log("SceneTransition Animator found.");
+            Debug.Log("Loading animator transisi sukses!");
         }
         else
         {
-            Debug.LogWarning("SceneTransition Animator not found.");
+            Debug.LogWarning("Animator tidak ditemukan.");
         }
-
-        // Do something on Awake, e.g., make an object appearance false
     }
 
     IEnumerator LoadSceneAsync(string sceneName)

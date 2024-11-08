@@ -5,13 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
-    [SerializeField] private float speed;           
-    [SerializeField] private float rotateSpeed;       
-    private Vector2 newPosition;                      
+    [SerializeField] private float speed;
+    [SerializeField] private float rotateSpeed;
+    [SerializeField] private float changeDirectionInterval = 2f;
+    private Vector2 newPosition;
+    private float changeDirectionTimer;
 
     void Start()
     {
         ChangePosition();
+        changeDirectionTimer = changeDirectionInterval;
     }
 
     void Update()
@@ -20,10 +23,11 @@ public class Portal : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, newPosition, speed * Time.deltaTime);
 
-        float distance = Vector2.Distance(transform.position, newPosition);
-        if (distance < 0.5f)
+        changeDirectionTimer -= Time.deltaTime;
+        if (changeDirectionTimer <= 0)
         {
             ChangePosition();
+            changeDirectionTimer = changeDirectionInterval;
         }
 
         if (WeaponPickup.GetActiveWeapon() == null)

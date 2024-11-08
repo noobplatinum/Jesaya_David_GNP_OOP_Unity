@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         {
             Instance = this;         
             DontDestroyOnLoad(gameObject);  
+            transform.position = new Vector3(0, -4.5f, 0);
         }
         else
         {
