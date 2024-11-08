@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    private Animator sceneTransitionAnimator;
+    [SerializeField] Animator sceneTransitionAnimator;
 
     void Awake()
     {
         // Find the Animator component in the "SceneTransition" object
-        sceneTransitionAnimator = GetComponentInChildren<Animator>();
-
         if (sceneTransitionAnimator != null)
         {
             Debug.Log("SceneTransition Animator found.");
@@ -27,25 +25,15 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator LoadSceneAsync(string sceneName)
     {
-        // Set the "End" trigger to start the transition animation
-        if (sceneTransitionAnimator != null)
-        {
-            sceneTransitionAnimator.SetTrigger("Start");
-        }
+        sceneTransitionAnimator.SetTrigger("End");
 
         yield return new WaitForSeconds(1);
 
-        // Load the new scene asynchronously
         SceneManager.LoadSceneAsync(sceneName);
 
-        // Set the player's position
         Player.Instance.transform.position = new Vector3(0, -4.5f);
 
-        // Set the "Start" trigger to end the transition animation
-        if (sceneTransitionAnimator != null)
-        {
-            sceneTransitionAnimator.SetTrigger("End");
-        }
+        sceneTransitionAnimator.SetTrigger("Start");
     }
 
     public void LoadScene(string sceneName)
