@@ -7,30 +7,30 @@ public class Portal : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float rotateSpeed;
-    [SerializeField] private float changeDirectionInterval = 2f;
+    [SerializeField] private float randomMovement = 2f;
     private Vector2 newPosition;
-    private float changeDirectionTimer;
+    private float randomizeTimer;
 
-    void Start()
+    void Start() // Start dalam arah yang random
     {
         ChangePosition();
-        changeDirectionTimer = changeDirectionInterval;
+        randomizeTimer = randomMovement;
     }
 
-    void Update()
+    void Update() 
     {
-        transform.Rotate(Vector3.back * rotateSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.back * rotateSpeed * Time.deltaTime); // Putar
 
-        transform.position = Vector2.MoveTowards(transform.position, newPosition, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, newPosition, speed * Time.deltaTime); // Fungsi untuk movement mulus
 
-        changeDirectionTimer -= Time.deltaTime;
-        if (changeDirectionTimer <= 0)
+        randomizeTimer -= Time.deltaTime; 
+        if (randomizeTimer <= 0)
         {
             ChangePosition();
-            changeDirectionTimer = changeDirectionInterval;
+            randomizeTimer = randomMovement; // Saat randomTime sudah habis, acak gerakan
         }
 
-        if (WeaponPickup.GetActiveWeapon() == null)
+        if (WeaponPickup.GetActiveWeapon() == null) // Hanya terlihat saat ada weapon
         {
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
@@ -42,7 +42,7 @@ public class Portal : MonoBehaviour
         }
     }
 
-    private void ChangePosition()
+    private void ChangePosition() // Random vector
     {
         newPosition = new Vector2(Random.Range(-10f, 10f), Random.Range(-10f, 10f));
     }
@@ -51,7 +51,7 @@ public class Portal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.Instance.LevelManager.LoadScene("Main");
+            GameManager.Instance.LevelManager.LoadScene("Main"); // Panggil definisi loadscene dari levelmanager
         }
     }
 }

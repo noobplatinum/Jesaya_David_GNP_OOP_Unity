@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] Animator sceneTransitionAnimator;
+    [SerializeField] Animator transAnim;
 
-    void Awake()
+    void Awake() // Baca animator
     {
-        if (sceneTransitionAnimator != null)
+        if (transAnim != null)
         {
             Debug.Log("Loading animator transisi sukses!");
         }
@@ -20,9 +20,9 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    IEnumerator LoadSceneAsync(string sceneName)
+    IEnumerator LoadSceneAsync(string sceneName) // Saat ingin load scene, trigger end & start, lalu posisikan player dan load scene
     {
-        sceneTransitionAnimator.SetTrigger("End");
+        transAnim.SetTrigger("End");
 
         yield return new WaitForSeconds(1);
 
@@ -30,10 +30,10 @@ public class LevelManager : MonoBehaviour
 
         Player.Instance.transform.position = new Vector3(0, -4.5f);
 
-        sceneTransitionAnimator.SetTrigger("Start");
+        transAnim.SetTrigger("Start");
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(string sceneName) // Co-routine : Kode dalam multiple frame (animasi)
     {
         StartCoroutine(LoadSceneAsync(sceneName));
     }

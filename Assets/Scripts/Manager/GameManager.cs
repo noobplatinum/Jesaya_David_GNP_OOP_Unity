@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour // Kode dasar teori
 {
     public static GameManager Instance { get; private set; }
 
@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (Instance != null && Instance != this) // Singleton
         {
             Destroy(this);
             return;
@@ -21,6 +21,6 @@ public class GameManager : MonoBehaviour
         LevelManager = GetComponentInChildren<LevelManager>();
 
         DontDestroyOnLoad(gameObject);
-        DontDestroyOnLoad(GameObject.Find("Camera"));
+        DontDestroyOnLoad(GameObject.Find("Camera")); // Semuanya akan didestroy kecuali player & kamera
     }
 }
