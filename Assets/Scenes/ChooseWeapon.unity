@@ -1474,6 +1474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 2
+  bossWeapon: {fileID: -7694739238528821104, guid: a343ed2fe5c60f647b54c7f5d5ce7dc0, type: 3}
 --- !u!1 &1247777424
 GameObject:
   m_ObjectHideFlags: 0
