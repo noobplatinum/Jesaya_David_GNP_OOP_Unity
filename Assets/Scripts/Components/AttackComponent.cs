@@ -5,8 +5,6 @@ public class AttackComponent : MonoBehaviour
 {
     [SerializeField] private Bullet bullet;
 
-    [SerializeField] private BossBullet bossBullet;
-
     [SerializeField] private int damage;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,10 +23,6 @@ public class AttackComponent : MonoBehaviour
             if (bullet != null)
             {
                 hitbox.Damage(bullet);
-            }
-            else if (bossBullet != null)
-            {
-                hitbox.Damage(bossBullet);
             }
             else
             {
