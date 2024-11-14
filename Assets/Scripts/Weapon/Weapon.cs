@@ -59,27 +59,6 @@ public class Weapon : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time >= timer && objectPool != null)
-        {
-            Bullet bulletObject = objectPool.Get();
-            if(bulletObject == null)
-            {
-                return;
-            }
-
-            bulletObject.transform.SetPositionAndRotation(BulletSpawnPoint.position, BulletSpawnPoint.rotation);
-
-            bulletObject.GetComponent<Rigidbody2D>().velocity = bulletObject.transform.up * bulletObject.bulletSpeed;
-
-            bulletObject.Deactivate();
-
-            timer = Time.time + shootIntervalInSeconds;
-        }
-    }
-
-    // Make a function to fire constantly without input from the player (using intervals)
-    public void Fire()
-    {
         if (Time.time >= timer && objectPool != null)
         {
             Bullet bulletObject = objectPool.Get();
@@ -90,7 +69,7 @@ public class Weapon : MonoBehaviour
 
             bulletObject.transform.SetPositionAndRotation(BulletSpawnPoint.position, BulletSpawnPoint.rotation);
 
-            bulletObject.GetComponent<Rigidbody2D>().velocity = -bulletObject.transform.up * bulletObject.bulletSpeed;
+            bulletObject.GetComponent<Rigidbody2D>().velocity = bulletObject.transform.up * bulletObject.bulletSpeed;
 
             bulletObject.Deactivate();
 

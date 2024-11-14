@@ -1,16 +1,16 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Pool;
-public class Bullet : MonoBehaviour
+public class BossBullet : MonoBehaviour
 {
     [Header("Bullet Stats")]
     public float bulletSpeed = 20f; 
     private Rigidbody2D rb;      
     [SerializeField] private float timeoutDelay = 1f;
 
-    public IObjectPool<Bullet> objectPool;
+    public IObjectPool<BossBullet> objectPool;
 
-    public IObjectPool<Bullet> ObjectPool { set => objectPool = value; }
+    public IObjectPool<BossBullet> ObjectPool { set => objectPool = value; }
 
     public void Deactivate()
     {
@@ -26,15 +26,16 @@ public class Bullet : MonoBehaviour
         objectPool.Release(this);
     }
 
-    public void SetObjectPool(IObjectPool<Bullet> objectPool)
+    public void SetObjectPool(IObjectPool<BossBullet> objectPool)
     {
         this.objectPool = objectPool;
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if((other.CompareTag("Player")) == false)
+        if((other.CompareTag("BossEnemy")) == false)
         {
-            Debug.Log("Bullet triggered by: " + other.gameObject.name);
+            Debug.Log("Bullet triggered by: " + other.tag);
             objectPool.Release(this);
         }
     }

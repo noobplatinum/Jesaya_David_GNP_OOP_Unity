@@ -1,33 +1,91 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
 
 public class BossEnemy : BaseEnemy
 {
-    public float enemySpeed = 5f; 
+    public float enemySpeed = 2f; 
     private bool movDirection = true; // Arah pergerakan Enemy (true = kanan, false = kiri)
     private float screenBound;
 
-    [SerializeField] private Weapon bossWeapon;
+    [Header("Weapon Stats")]
+    [SerializeField] public float shootIntervalInSeconds = 1f;
+
+
+    [Header("Bullets")]
+    public BossBullet bullet;
+    [SerializeField] public Transform BossBulletSpawnPoint;
+
+    [Header("BossBullet Pool")]
+    private IObjectPool<BossBullet> objectPool;
+
+    public readonly bool collectionCheck = false;
+    public readonly int defaultCapacity = 30;
+    public readonly int maxSize = 100;
+    public float timer;
+    public Transform parentTransform;
+
+    private void Awake()
+    {
+    // Initialize the object pool
+        objectPool = new ObjectPool<BossBullet>(
+            CreateProjectile,
+            OnGetFromPool,
+            OnReleaseToPool,
+            OnDestroyPooledObject,
+            collectionCheck,
+            defaultCapacity,
+            maxSize
+        );
+    }
+    private BossBullet CreateProjectile()
+    {
+        BossBullet bulletInstance = Instantiate(bullet);
+        bulletInstance.ObjectPool = objectPool;
+        return bulletInstance;
+    }
+
+    private void OnGetFromPool(BossBullet pooledObject)
+    {
+        pooledObject.gameObject.SetActive(true);
+    }
+
+    private void OnReleaseToPool(BossBullet pooledObject)
+    {
+        pooledObject.gameObject.SetActive(false);
+    }
+
+    private void OnDestroyPooledObject(BossBullet pooledObject)
+    {
+        Destroy(pooledObject.gameObject);
+    }
+
+    private void Update()
+    {
+        if (Time.time >= timer && objectPool != null)
+        {
+            BossBullet bulletObject = objectPool.Get();
+            if(bulletObject == null)
+            {
+                return;
+            }
+
+            bulletObject.transform.SetPositionAndRotation(BossBulletSpawnPoint.position, BossBulletSpawnPoint.rotation);
+
+            bulletObject.GetComponent<Rigidbody2D>().velocity = bulletObject.transform.up * bulletObject.bulletSpeed;
+
+            bulletObject.Deactivate();
+
+            timer = Time.time + shootIntervalInSeconds;
+        }
+    }
 
     void Start()
     {
         // Menghitung batas layar di kanan dan kiri dari tengah layar
         screenBound = Camera.main.ViewportToWorldPoint(new Vector3(1, 0.5f, 0)).x; // Batas kanan/kiri (jarak dari tengah layar)
         SpawnAtRandomSide();
-        StartCoroutine(FireWeaponContinuously());
-    }
-
-    void Update()
-    {
-        if (movDirection)
-        {
-            transform.Translate(Vector2.right * enemySpeed * Time.deltaTime);
-        }
-        else
-        {
-            transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
-        }
     }
 
     private void FixedUpdate()
@@ -37,6 +95,15 @@ public class BossEnemy : BaseEnemy
             movDirection = !movDirection;
             RandomizeYPosition(); 
         }
+
+        if (movDirection)
+            {
+                transform.Translate(Vector2.right * enemySpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
+            }
     }
 
     void SpawnAtRandomSide()
@@ -58,15 +125,6 @@ public class BossEnemy : BaseEnemy
     {
         float newY = Random.Range(-4f, 4f); 
         transform.position = new Vector3(transform.position.x, newY, transform.position.z);
-    }
-
-    private IEnumerator FireWeaponContinuously()
-    {
-        while (true)
-        {
-            bossWeapon.Fire();
-            yield return new WaitForSeconds(bossWeapon.shootIntervalInSeconds); // Adjust the firing rate as needed
-        }
     }
 
 }
