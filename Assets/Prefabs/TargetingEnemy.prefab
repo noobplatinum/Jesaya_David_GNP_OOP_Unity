@@ -14,9 +14,13 @@ GameObject:
   - component: {fileID: 6873968428617026904}
   - component: {fileID: 4116717207431055412}
   - component: {fileID: 6041528914705406118}
+  - component: {fileID: 6327393899416922676}
+  - component: {fileID: 204859562201903669}
+  - component: {fileID: 1538199759526869405}
+  - component: {fileID: 2931472832845284216}
   m_Layer: 0
   m_Name: TargetingEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,5 +197,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c151548586b2a44952b17cf6c4fd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 1
   startChaseDelay: 1
+--- !u!114 &6327393899416922676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484796305504553665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82b0bb078db6b342b7a365e2b684b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bossBullet: {fileID: 0}
+  damage: 10
+--- !u!114 &204859562201903669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484796305504553665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13921ef9ec71e1b4c83ebb8fc413b9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &1538199759526869405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484796305504553665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54be17cb207baf48be0305e29c8156e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 204859562201903669}
+--- !u!114 &2931472832845284216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484796305504553665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b002472196ab8564dafbc65e2db07cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkingCount: 2
+  blinkInterval: 0.05
+  blinkMaterial: {fileID: 2100000, guid: 11a495358503bc84fa32edfb662ad442, type: 2}
+  isInvincible: 0

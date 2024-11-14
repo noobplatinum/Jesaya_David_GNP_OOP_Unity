@@ -108,7 +108,7 @@ public class BossEnemy : BaseEnemy
 
     void SpawnAtRandomSide()
     {
-        float spawnY = Random.Range(-4f, 4f); 
+        float spawnY = Random.Range(-2f, 3f); 
         if (Random.value > 0.5f)
         {
             transform.position = new Vector3(-screenBound, spawnY, 0);
@@ -123,7 +123,7 @@ public class BossEnemy : BaseEnemy
 
     void RandomizeYPosition()
     {
-        float newY = Random.Range(-4f, 4f); 
+        float newY = Random.Range(-3f, 3f); 
         transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 

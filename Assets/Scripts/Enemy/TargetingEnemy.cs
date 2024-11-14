@@ -20,6 +20,7 @@ public class TargetingEnemy : BaseEnemy
 
     void Start()
     {
+        RandomSpawn();
         StartCoroutine(ChaseDelay());
     }
 
@@ -62,5 +63,11 @@ public class TargetingEnemy : BaseEnemy
     {
         yield return new WaitForSeconds(startChaseDelay);
         isChasing = true;
+    }
+
+    private void RandomSpawn()
+    {
+        float newY = Random.Range(-4f, 4f); 
+        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 }

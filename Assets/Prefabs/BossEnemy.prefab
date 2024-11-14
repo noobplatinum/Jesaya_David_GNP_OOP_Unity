@@ -15,6 +15,10 @@ GameObject:
   - component: {fileID: 4322985691795400226}
   - component: {fileID: 5466711241683891636}
   - component: {fileID: 895312781308980271}
+  - component: {fileID: 365288472936319492}
+  - component: {fileID: 5262735752790248639}
+  - component: {fileID: 4056097961843994812}
+  - component: {fileID: 2527066908762843999}
   m_Layer: 0
   m_Name: BossEnemy
   m_TagString: Enemy
@@ -197,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 2
-  shootIntervalInSeconds: 1
+  shootIntervalInSeconds: 0.1
   bullet: {fileID: 7889102779178327591}
   BossBulletSpawnPoint: {fileID: 5240483728221262773}
   timer: 0
@@ -217,6 +221,63 @@ MonoBehaviour:
   bullet: {fileID: 0}
   bossBullet: {fileID: 7889102779178327591}
   damage: 10
+--- !u!114 &365288472936319492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888097749242856677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82b0bb078db6b342b7a365e2b684b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bossBullet: {fileID: 7965848728660904343, guid: 59c50970a5c5c654595454aca2198e89, type: 3}
+  damage: 10
+--- !u!114 &5262735752790248639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888097749242856677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13921ef9ec71e1b4c83ebb8fc413b9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1000
+--- !u!114 &4056097961843994812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888097749242856677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54be17cb207baf48be0305e29c8156e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 5262735752790248639}
+--- !u!114 &2527066908762843999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888097749242856677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b002472196ab8564dafbc65e2db07cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkingCount: 2
+  blinkInterval: 0.05
+  blinkMaterial: {fileID: 2100000, guid: 11a495358503bc84fa32edfb662ad442, type: 2}
+  isInvincible: 0
 --- !u!1 &7410266222759067392
 GameObject:
   m_ObjectHideFlags: 0

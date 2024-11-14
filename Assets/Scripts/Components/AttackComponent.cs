@@ -34,10 +34,10 @@ public class AttackComponent : MonoBehaviour
             {
                 hitbox.Damage(damage);
             }
-            InvincibilityComponent flashComponent = collision.GetComponent<InvincibilityComponent>();
-            if (flashComponent != null && flashComponent.isInvincible == false)
+            InvincibilityComponent blinkComponent = collision.GetComponent<InvincibilityComponent>();
+            if (blinkComponent != null && blinkComponent.isInvincible == false)
             {
-                flashComponent.StartBlinking();
+                blinkComponent.StartBlinking();
             }
         }
     }

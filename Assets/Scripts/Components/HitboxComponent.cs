@@ -5,15 +5,15 @@ using UnityEngine;
 public class HitboxComponent : MonoBehaviour
 {
     [SerializeField] private HealthComponent health;
-    private InvincibilityComponent flashComponent;
+    private InvincibilityComponent blinkComponent;
     private void Start()
     {
-        flashComponent = GetComponent<InvincibilityComponent>();
+        blinkComponent = GetComponent<InvincibilityComponent>();
     }
 
     public void Damage(int damage)
     {
-        if (health != null && (flashComponent == null || !flashComponent.isInvincible))
+        if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
         {
             health.Subtract(damage);
         }
@@ -21,7 +21,7 @@ public class HitboxComponent : MonoBehaviour
 
     public void Damage(Bullet bullet)
     {
-        if (health != null && (flashComponent == null || !flashComponent.isInvincible))
+        if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
         {
             health.Subtract(bullet.damage);
         }
@@ -29,7 +29,7 @@ public class HitboxComponent : MonoBehaviour
 
     public void Damage(BossBullet bossBullet)
     {
-        if (health != null && (flashComponent == null || !flashComponent.isInvincible))
+        if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
         {
             health.Subtract(bossBullet.damage);
         }

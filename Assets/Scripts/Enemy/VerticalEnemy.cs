@@ -10,7 +10,8 @@ public class VerticalEnemy : BaseEnemy
     void Start()
     {
         screenBound = Mathf.Abs(Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 1.1f, 0)).y);
-        moveSpeed = -moveSpeed; 
+        moveSpeed = -moveSpeed;
+        RandomSpawn(); 
     }
 
     void Update()
@@ -19,11 +20,11 @@ public class VerticalEnemy : BaseEnemy
 
         if (Mathf.Abs(transform.position.y) > screenBound)
         {
-            RespawnEnemy();
+            RandomSpawn();
         }
     }
 
-    void RespawnEnemy()
+    void RandomSpawn()
     {
         transform.position = new Vector3(Random.Range(-8f, 8f), screenBound, 0f);
     }
