@@ -7,6 +7,7 @@ public class BossBullet : MonoBehaviour
     public float bulletSpeed = 20f; 
     private Rigidbody2D rb;      
     [SerializeField] private float timeoutDelay = 1f;
+    [SerializeField] public int damage = 20;
 
     public IObjectPool<BossBullet> objectPool;
 
@@ -15,6 +16,16 @@ public class BossBullet : MonoBehaviour
     public void Deactivate()
     {
         StartCoroutine(DeactivateRoutine(timeoutDelay));
+    }
+
+    public int getDamage()
+    {
+        return damage;
+    }
+
+    public BossBullet GetBullet()
+    {
+        return this;
     }
 
     IEnumerator DeactivateRoutine(float delay)
@@ -30,12 +41,10 @@ public class BossBullet : MonoBehaviour
     {
         this.objectPool = objectPool;
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if((other.CompareTag("BossEnemy")) == false)
+        if((other.CompareTag("Enemy")) == false)
         {
-            Debug.Log("Bullet triggered by: " + other.tag);
             objectPool.Release(this);
         }
     }

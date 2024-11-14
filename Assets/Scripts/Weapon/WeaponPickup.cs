@@ -18,7 +18,6 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
     void Awake() // Instantiasi Weapon
     {
         weapon = Instantiate(weaponHolder);
-        Debug.Log("Weapon: " + weapon.name);
     }
 
     void Start() 
@@ -27,17 +26,14 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
         {
             weapon.gameObject.SetActive(false);
             TurnVisual(false, weapon);
-            Debug.Log("Weapon: " + weapon.name + " tidak aktif");
         }
     }
 
     void OnTriggerEnter2D(Collider2D other) // Cek collision -> tempel weapon
     {
-        Debug.Log("Collision: " + other.name + ", Tag: " + other.tag);
 
         if(other.CompareTag("Player"))
         {
-            Debug.Log("Tabrakan dengan Player");
             Transform shipTransform = other.transform.Find("Ship");
             if(shipTransform != null)
             {
@@ -45,7 +41,6 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
                 {
                     AttachWeaponToPlayer(shipTransform); // Tempel dan aktifkan
                     ActivateWeapon(weapon);
-                    Debug.Log("Weapon: " + weapon.name + " is now active");
                 }
             }
         }

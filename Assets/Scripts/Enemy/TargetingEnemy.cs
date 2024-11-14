@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class TargetingEnemy : MonoBehaviour
+public class TargetingEnemy : BaseEnemy
 {
     public float moveSpeed = 0.5f;
     public float startChaseDelay = 1f;

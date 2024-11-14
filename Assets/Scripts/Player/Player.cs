@@ -35,10 +35,6 @@ public class Player : MonoBehaviour
         {
             animator = engineEffect.GetComponent<Animator>();
         }
-        else
-        {
-            Debug.LogWarning("EngineEffect tidak ditemukan.");
-        }
     }
 
     private void FixedUpdate()

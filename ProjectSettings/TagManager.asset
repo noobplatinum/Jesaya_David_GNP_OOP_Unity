@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - BossEnemy
+  - Weapon3
+  - Weapon2
+  - Weapon4
+  - Weapon1
+  - Enemy
   layers:
   - Default
   - TransparentFX

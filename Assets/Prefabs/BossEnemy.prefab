@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6405943761039903685}
   - component: {fileID: 4322985691795400226}
   - component: {fileID: 5466711241683891636}
+  - component: {fileID: 895312781308980271}
   m_Layer: 0
   m_Name: BossEnemy
-  m_TagString: BossEnemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,8 +35,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1251638465656632397}
   - {fileID: 5240483728221262773}
+  - {fileID: 4581418089658636681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!61 &1182832411602232267
@@ -197,10 +198,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySpeed: 2
   shootIntervalInSeconds: 1
-  bullet: {fileID: 7965848728660904343, guid: 59c50970a5c5c654595454aca2198e89, type: 3}
+  bullet: {fileID: 7889102779178327591}
   BossBulletSpawnPoint: {fileID: 5240483728221262773}
   timer: 0
   parentTransform: {fileID: 0}
+--- !u!114 &895312781308980271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888097749242856677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82b0bb078db6b342b7a365e2b684b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bossBullet: {fileID: 7889102779178327591}
+  damage: 10
 --- !u!1 &7410266222759067392
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +248,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1056374063357666688}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3259790208537164404
+--- !u!1001 &285934713232431024
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -293,8 +309,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59c50970a5c5c654595454aca2198e89, type: 3}
---- !u!4 &1251638465656632397 stripped
+--- !u!4 &4581418089658636681 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4351514500320120377, guid: 59c50970a5c5c654595454aca2198e89, type: 3}
-  m_PrefabInstance: {fileID: 3259790208537164404}
+  m_PrefabInstance: {fileID: 285934713232431024}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7889102779178327591 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7965848728660904343, guid: 59c50970a5c5c654595454aca2198e89, type: 3}
+  m_PrefabInstance: {fileID: 285934713232431024}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7e8c32de90fc04ba67e9e0714bfd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

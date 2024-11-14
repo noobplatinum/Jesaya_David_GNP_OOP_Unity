@@ -125,11 +125,6 @@ public class PlayerMovement : MonoBehaviour
         return friction;
     }
 
-    public void MoveBound()
-    {
-        // Dikosongkan dulu
-    }
-
     public bool IsMoving()
     {
         return rb.velocity.magnitude > 0; // Jika kecepatan > 0, maka bergerak 

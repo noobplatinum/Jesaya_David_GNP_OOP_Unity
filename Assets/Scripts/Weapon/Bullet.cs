@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     public float bulletSpeed = 20f; 
     private Rigidbody2D rb;      
     [SerializeField] private float timeoutDelay = 1f;
+    [SerializeField] public int damage = 20;
 
     public IObjectPool<Bullet> objectPool;
 
@@ -15,6 +16,16 @@ public class Bullet : MonoBehaviour
     public void Deactivate()
     {
         StartCoroutine(DeactivateRoutine(timeoutDelay));
+    }
+
+    public int getDamage()
+    {
+        return damage;
+    }
+
+    public Bullet GetBullet()
+    {
+        return this;
     }
 
     IEnumerator DeactivateRoutine(float delay)
@@ -34,7 +45,6 @@ public class Bullet : MonoBehaviour
     {
         if((other.CompareTag("Player")) == false)
         {
-            Debug.Log("Bullet triggered by: " + other.gameObject.name);
             objectPool.Release(this);
         }
     }

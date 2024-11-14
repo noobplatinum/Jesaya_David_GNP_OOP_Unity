@@ -8,18 +8,6 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] Animator transAnim;
 
-    void Awake() // Baca animator
-    {
-        if (transAnim != null)
-        {
-            Debug.Log("Loading animator transisi sukses!");
-        }
-        else
-        {
-            Debug.LogWarning("Animator tidak ditemukan.");
-        }
-    }
-
     IEnumerator LoadSceneAsync(string sceneName) // Saat ingin load scene, trigger end & start, lalu posisikan player dan load scene
     {
         transAnim.SetTrigger("End");
