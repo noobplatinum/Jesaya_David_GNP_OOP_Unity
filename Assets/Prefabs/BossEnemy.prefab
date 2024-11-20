@@ -198,7 +198,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95935cfcdbb904c43a1c66e1b5234477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 2
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 10
+  enemySpeed: 2.5
 --- !u!114 &5262735752790248639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13921ef9ec71e1b4c83ebb8fc413b9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 300
 --- !u!114 &4056097961843994812
 MonoBehaviour:
   m_ObjectHideFlags: 0

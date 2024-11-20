@@ -197,6 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c151548586b2a44952b17cf6c4fd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 5
   moveSpeed: 1
   startChaseDelay: 1
 --- !u!114 &6327393899416922676
@@ -212,7 +215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 0}
-  bossBullet: {fileID: 0}
   damage: 10
 --- !u!114 &204859562201903669
 MonoBehaviour:
