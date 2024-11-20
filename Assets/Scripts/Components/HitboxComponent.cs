@@ -8,14 +8,14 @@ public class HitboxComponent : MonoBehaviour
     private InvincibilityComponent blinkComponent;
     private void Start()
     {
-        blinkComponent = GetComponent<InvincibilityComponent>();
+        blinkComponent = GetComponent<InvincibilityComponent>();// Cari invincibility component
     }
 
     public void Damage(int damage)
     {
         if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
         {
-            health.Subtract(damage);
+            health.Subtract(damage); // Kalau sedang tidak invincible, maka damage
         }
     }
 
@@ -27,7 +27,7 @@ public class HitboxComponent : MonoBehaviour
         }
     }
 
-    public void Damage(BossBullet bossBullet)
+    public void Damage(BossBullet bossBullet) // Tidak terpakai
     {
         if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
         {

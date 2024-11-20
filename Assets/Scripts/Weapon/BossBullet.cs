@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Pool;
-public class BossBullet : MonoBehaviour
+public class BossBullet : MonoBehaviour // Note: Tidak dipakai lagi
 {
     [Header("Bullet Stats")]
     public float bulletSpeed = 20f; 

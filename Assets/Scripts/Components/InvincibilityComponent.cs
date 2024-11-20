@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(HitboxComponent))]
+[RequireComponent(typeof(HitboxComponent))] // Wajibkan hitbox dan invincibility component
 [RequireComponent(typeof(SpriteRenderer))]
 
 public class InvincibilityComponent: MonoBehaviour
@@ -10,9 +10,9 @@ public class InvincibilityComponent: MonoBehaviour
     #region Datamembers
 
     #region Editor Settings
-    [SerializeField] private int blinkingCount = 7;
-    [SerializeField] private float blinkInterval = 0.1f;
-    [SerializeField] private Material blinkMaterial;
+    [SerializeField] private int blinkingCount = 7; // Jumlah blink
+    [SerializeField] private float blinkInterval = 0.1f; 
+    [SerializeField] private Material blinkMaterial; // Gunakan material ini saat blink
     #endregion
 
     #region Private Fields
@@ -28,7 +28,7 @@ public class InvincibilityComponent: MonoBehaviour
     #region Unity Callbacks
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Ambil spriterenderer dan cari materialnya
         if (spriteRenderer != null)
         {
             originalMaterial = spriteRenderer.material;
@@ -38,7 +38,7 @@ public class InvincibilityComponent: MonoBehaviour
     
     private IEnumerator BlinkingRoutine()
     {
-        isInvincible = true;
+        isInvincible = true; // Saat invincible, maka mulai blink dengan interval
 
         for (int i = 0; i < blinkingCount; i++)
         {
@@ -48,11 +48,11 @@ public class InvincibilityComponent: MonoBehaviour
             yield return new WaitForSeconds(blinkInterval);
         }
 
-        isInvincible = false;
+        isInvincible = false; // Matikan invincibility
         blinkRoutine = null;
     }
 
-    public void StartBlinking()
+    public void StartBlinking() // Coroutine
     {
         if (isInvincible == false)
         {

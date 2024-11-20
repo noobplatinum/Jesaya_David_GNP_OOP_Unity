@@ -24,7 +24,7 @@ public class Weapon : MonoBehaviour
     public Transform parentTransform;
     private void Awake()
     {
-    // Initialize the object pool
+    // Init pool
     objectPool = new ObjectPool<Bullet>(
         CreateProjectile,
         OnGetFromPool,
@@ -35,7 +35,7 @@ public class Weapon : MonoBehaviour
         maxSize
     );
     }
-    private Bullet CreateProjectile()
+    private Bullet CreateProjectile() // Instansiasi bullet, masukkan object pool
     {
         Bullet bulletInstance = Instantiate(bullet);
         bulletInstance.ObjectPool = objectPool;
@@ -55,7 +55,7 @@ public class Weapon : MonoBehaviour
     private void OnDestroyPooledObject(Bullet pooledObject)
     {
         Destroy(pooledObject.gameObject);
-    }
+    } // Fungsi-fungsi handling event
 
     private void Update()
     {
@@ -74,7 +74,7 @@ public class Weapon : MonoBehaviour
             bulletObject.Deactivate();
 
             timer = Time.time + shootIntervalInSeconds;
-        }
+        } // Hitung waktu, lalu get/aktifkan bullet dan gerakkan ke atas. Pakai posisi bulletspawnpoint dan nonaktifkan setelah delay
     }
 }
 
