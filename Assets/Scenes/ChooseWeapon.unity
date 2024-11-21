@@ -151,7 +151,7 @@ Transform:
   m_GameObject: {fileID: 98448384}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.93, y: 2.188, z: 0}
+  m_LocalPosition: {x: 0.93, y: 2.188, z: -2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -317,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 249349721}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.004, y: 2.173, z: 0}
+  m_LocalPosition: {x: -2.004, y: 2.173, z: -2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -575,7 +575,7 @@ Transform:
   m_GameObject: {fileID: 604730254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.989, y: 2.173, z: 0}
+  m_LocalPosition: {x: -0.989, y: 2.173, z: -2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -807,6 +807,7 @@ GameObject:
   - component: {fileID: 880542072}
   - component: {fileID: 880542074}
   - component: {fileID: 880542075}
+  - component: {fileID: 880542076}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -864,8 +865,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49999994, y: -0.93939394}
-    oldSize: {x: 0.38, y: 0.33}
+    pivot: {x: 0.5, y: -0.6428572}
+    oldSize: {x: 0.44444445, y: 0.3888889}
     newSize: {x: 0.38, y: 0.33}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -915,7 +916,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2873216266101088806, guid: 4cff116e380de654ebd7b30a9ab47797, type: 3}
+  m_Sprite: {fileID: -4231988319224858902, guid: bbd935c8b37111948ac90ce9be4d2780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -953,6 +954,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6852f7e54b4fce949a2346a67a5339c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &880542076
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880542070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 2991257037815973796, guid: bbd935c8b37111948ac90ce9be4d2780, type: 3}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1027039457
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +1004,7 @@ Transform:
   m_GameObject: {fileID: 1027039457}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.012, y: 2.166, z: 0}
+  m_LocalPosition: {x: 2.012, y: 2.166, z: -2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1411,6 +1433,30 @@ PrefabInstance:
     - target: {fileID: 6951473629718636810, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: maxSpeed.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: maxSpeed.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: timeToStop.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: timeToStop.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: timeToFullSpeed.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150700468728271258, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
+      propertyPath: timeToFullSpeed.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2149011348995885133, guid: 0fe1b5b1af4a8ae4f974f79315c784cc, type: 3}
