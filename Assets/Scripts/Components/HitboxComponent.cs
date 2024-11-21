@@ -26,12 +26,4 @@ public class HitboxComponent : MonoBehaviour
             health.Subtract(bullet.damage);
         }
     }
-
-    public void Damage(BossBullet bossBullet) // Tidak terpakai
-    {
-        if (health != null && (blinkComponent == null || !blinkComponent.isInvincible))
-        {
-            health.Subtract(bossBullet.damage);
-        }
-    }
 }

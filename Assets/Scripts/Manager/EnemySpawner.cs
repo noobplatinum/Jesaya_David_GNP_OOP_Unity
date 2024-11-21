@@ -22,35 +22,42 @@ public class EnemySpawner : MonoBehaviour
     public CombatManager combatManager;
 
     public bool isSpawning = false;
+    private float spawnTimer = 0f;
+    private int enemiesSpawned = 0;
 
     private void Start()
     {
         spawnCount = defaultSpawnCount;
     }
 
-    public void SpawnAll()
+    private void Update()
     {
-        if (!isSpawning && spawnedEnemy.level <= combatManager.waveNumber)
+        if (isSpawning == true)
         {
-            isSpawning = true;
-            StartCoroutine(SpawnEnemies());
-        }
-    }
-
-    private IEnumerator SpawnEnemies()
-    {
-        int enemiesSpawned = 0;
-        while (isSpawning && enemiesSpawned < spawnCount)
-        {
-            for (int i = 0; i < spawnCount; i++)
+            spawnTimer += Time.deltaTime;
+            if (spawnTimer >= spawnInterval && enemiesSpawned < spawnCount)
             {
                 SpawnEnemy();
                 enemiesSpawned++;
-                yield return new WaitForSeconds(spawnInterval);
+                spawnTimer = 0f;
+            }
+
+            if (enemiesSpawned >= spawnCount)
+            {
+                isSpawning = false;
+                combatManager.OnAllEnemiesSpawned();
             }
         }
-        isSpawning = false; 
-        combatManager.OnAllEnemiesSpawned();
+    }
+
+    public void SpawnAll()
+    {
+        if (isSpawning == false && spawnedEnemy.level <= combatManager.waveNumber)
+        {
+            isSpawning = true;
+            enemiesSpawned = 0;
+            spawnTimer = 0f;
+        }
     }
 
     private void SpawnEnemy()

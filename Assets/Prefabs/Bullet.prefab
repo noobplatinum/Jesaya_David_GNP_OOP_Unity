@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 20
   timeoutDelay: 3
-  damage: 300
+  damage: 25
 --- !u!95 &6132907961720572551
 Animator:
   serializedVersion: 5

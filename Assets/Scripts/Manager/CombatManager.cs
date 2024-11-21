@@ -19,7 +19,7 @@ public class CombatManager : MonoBehaviour
 
     private void Update()
     {
-        if (totalEnemies <= 0 && allEnemiesSpawned)
+        if (totalEnemies <= 0 && allEnemiesSpawned == true)
         {
             if (!timerReset)
             {
@@ -42,7 +42,7 @@ public class CombatManager : MonoBehaviour
         timerReset = false;
         allEnemiesSpawned = false;
 
-        foreach (EnemySpawner spawner in enemySpawners)
+        foreach(EnemySpawner spawner in enemySpawners)
         {
             spawner.SpawnAll();
         }
@@ -60,9 +60,9 @@ public class CombatManager : MonoBehaviour
 
     public void OnAllEnemiesSpawned()
     {
-        foreach (EnemySpawner spawner in enemySpawners)
+        foreach(EnemySpawner spawner in enemySpawners)
         {
-            if (spawner.IsSpawning())
+            if (spawner.IsSpawning() == true)
             {
                 return;
             }
