@@ -44,9 +44,6 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if((other.CompareTag("Player")) == false)
-        {
-            objectPool.Release(this);
-        }
+        objectPool.Release(this);
     } 
 }

@@ -44,7 +44,8 @@ public class Weapon : MonoBehaviour
 
     private void OnGetFromPool(Bullet pooledObject)
     {
-        pooledObject.gameObject.SetActive(true);
+        if(pooledObject != null)
+        {pooledObject.gameObject.SetActive(true);}
     }
 
     private void OnReleaseToPool(Bullet pooledObject)

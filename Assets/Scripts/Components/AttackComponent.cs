@@ -19,7 +19,6 @@ public class AttackComponent : MonoBehaviour
         // Kalau beda tag, ambil hitbox
         if (hitbox != null)
         {
-            Debug.Log("Collided with " + collision.name); // Jika ada bullet, maka damage dari bullet
             if (bullet != null)
             {
                 hitbox.Damage(bullet);
