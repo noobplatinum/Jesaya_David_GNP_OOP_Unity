@@ -21,9 +21,9 @@ public class EnemySpawner : MonoBehaviour
 
     public CombatManager combatManager;
 
-    public bool isSpawning = false;
-    private float spawnTimer = 0f;
-    private int enemiesSpawned = 0;
+    public bool isSpawning = false; // Flag untuk mengetahui apakah enemy masih spawn
+    private float spawnTimer = 0f; // Untuk interval spawn
+    private int enemiesSpawned = 0; // Counter untuk enemy yang sudah muncul
 
     private void Start()
     {
@@ -34,15 +34,15 @@ public class EnemySpawner : MonoBehaviour
     {
         if (isSpawning == true)
         {
-            spawnTimer += Time.deltaTime;
+            spawnTimer += Time.deltaTime; // Jika timer sudah mencapai interval spawn, spawn enemy
             if (spawnTimer >= spawnInterval && enemiesSpawned < spawnCount)
             {
                 SpawnEnemy();
                 enemiesSpawned++;
-                spawnTimer = 0f;
+                spawnTimer = 0f; // Set timer interval kembali ke 0
             }
 
-            if (enemiesSpawned >= spawnCount)
+            if (enemiesSpawned >= spawnCount) // Jika sudah mencapai batas spawn, stop spawning
             {
                 isSpawning = false;
                 combatManager.OnAllEnemiesSpawned();

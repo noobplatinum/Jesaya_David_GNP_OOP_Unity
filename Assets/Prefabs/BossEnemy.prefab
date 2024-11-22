@@ -198,9 +198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95935cfcdbb904c43a1c66e1b5234477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combatmanager: {fileID: 0}
-  spawner: {fileID: 0}
-  level: 10
+  combatManager: {fileID: 0}
+  enemySpawner: {fileID: 0}
+  level: 6
   enemySpeed: 2.5
 --- !u!114 &5262735752790248639
 MonoBehaviour:

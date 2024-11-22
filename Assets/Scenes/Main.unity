@@ -253,6 +253,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombatManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1844090882174527541, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
+      propertyPath: spawnInterval
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954784775329541011, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
+      propertyPath: spawnInterval
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5694627462794537064, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -292,6 +300,14 @@ PrefabInstance:
     - target: {fileID: 5694627462794537064, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094942237403097920, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
+      propertyPath: spawnInterval
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303404896993846466, guid: aa4773cf080709b42b5ef56b504d80c8, type: 3}
+      propertyPath: waveInterval
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -15,6 +15,6 @@ public class BaseEnemy : MonoBehaviour
         {
             enemySpawner.TotalEnemyCounter();
             combatManager.TotalEnemyCounter();
-        }
+        } // Saat enemy mati, notify CombatManager dan EnemySpawner
     }
 }
