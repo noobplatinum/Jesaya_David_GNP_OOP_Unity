@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,13 +14,15 @@ public class Player : MonoBehaviour
     private PlayerMovement playerMovement;
     private Animator animator;
 
+    public String weaponName;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;         
             DontDestroyOnLoad(gameObject);  
-            transform.position = new Vector3(0, -4.5f, 0);
+            transform.position = new Vector3(0, -3.5f, 0);
         }
         else
         {

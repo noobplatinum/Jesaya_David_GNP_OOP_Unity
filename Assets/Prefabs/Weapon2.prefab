@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91c4ff86bb27cb44bbf11216f44b0f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootIntervalInSeconds: 1
+  shootIntervalInSeconds: 0.01
   bullet: {fileID: 7282273996738070297}
   BulletSpawnPoint: {fileID: 2223842778660971180}
   timer: 0

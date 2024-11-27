@@ -2,13 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/* Script Weapon.cs
-public class Weapon : MonoBehaviour
-    {
-        public Transform parentTransform;
-    }
-*/
-
 public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
 {
     [SerializeField] private Weapon weaponHolder; // Weapon yang dipegang
@@ -41,6 +34,7 @@ public class WeaponPickup : MonoBehaviour // Tujuan : Pickup Object
                 {
                     AttachWeaponToPlayer(shipTransform); // Tempel dan aktifkan
                     ActivateWeapon(weapon);
+                    Player.Instance.weaponName = weapon.name;
                 }
             }
         }

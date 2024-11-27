@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CombatManager : MonoBehaviour
 {
@@ -9,12 +10,17 @@ public class CombatManager : MonoBehaviour
     [SerializeField] private float waveInterval = 5f; 
     public int waveNumber = 1; 
     public int totalEnemies = 0;
+    public int displayEnemies = 0;
     private bool timerReset = false; // Handler agar timer tidak direset berkali-kali
     private bool allEnemiesSpawned = true; // Jika seluruh enemy sudah muncul
+    public int totalPts = 0;
+    public string RosterStr = "";
+    private MainUI mainUI;
 
     private void Start()
     {
         waveNumber = 0;
+        mainUI = FindObjectOfType<MainUI>();
     }
 
     private void Update()
@@ -36,21 +42,45 @@ public class CombatManager : MonoBehaviour
 
     private void StartNewWave()
     {
+        RosterStr = "Roster - ";
         timer = 0; // Set timer antarwave ke 0
         waveNumber++; 
+        mainUI.StartCoroutine(mainUI.ShowWaveStart(waveNumber)); // Tampilkan wave start
         totalEnemies = 0; 
+        displayEnemies = 0;
         timerReset = false; // Timer bisa direset lagi
         allEnemiesSpawned = false;
 
         foreach(EnemySpawner spawner in enemySpawners)
         {
             spawner.SpawnAll(); // Spawn tiap jenis enemy
+            if (spawner.isSpawning == true)
+            {
+                displayEnemies += spawner.spawnCount;
+                switch(spawner.spawnedEnemy.name)
+                {
+                    case "HorizontalEnemy":
+                        RosterStr += "Horizon, ";
+                        break;
+                    case "VerticalEnemy":
+                        RosterStr += "Vertex, ";
+                        break;
+                    case "TargetingEnemy":
+                        RosterStr += "Target, ";
+                        break;
+                    case "BossEnemy":
+                        RosterStr += "Boss";
+                        break;
+                }
+            }   
         }
+
     }
 
     public void TotalEnemyCounter()
     {
         totalEnemies--; // Count turun jika enemy mati
+        displayEnemies--; // Count turun jika enemy mati
     }
 
     public void OnEnemySpawned()

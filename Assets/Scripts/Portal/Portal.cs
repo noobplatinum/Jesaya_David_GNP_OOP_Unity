@@ -51,6 +51,13 @@ public class Portal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Transform uiTransform = GameManager.Instance.transform.Find("UI"); // Destroy UI scene ChooseWeapon
+            if (uiTransform != null)
+            {
+                Destroy(uiTransform.Find("GalaxyText").gameObject);
+                Destroy(uiTransform.Find("BlasterText").gameObject);
+                Destroy(uiTransform.Find("InstructionText").gameObject);
+            }
             GameManager.Instance.LevelManager.LoadScene("Main"); // Panggil definisi loadscene dari levelmanager
         }
     }

@@ -83,6 +83,8 @@ public class EnemySpawner : MonoBehaviour
             spawnCount = defaultSpawnCount + (spawnCountMultiplier * multiplierIncreaseCount);
             multiplierIncreaseCount++;
         }
+
+        combatManager.totalPts += spawnedEnemy.level;
     }
 
     public bool IsSpawning()
