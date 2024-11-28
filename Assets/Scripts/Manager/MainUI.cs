@@ -80,7 +80,7 @@ public class MainUI : MonoBehaviour
             }
         }
 
-        enemyCountText.text = combatManager.displayEnemies + " - Enemies";
+        enemyCountText.text = combatManager.displayEnemies + " - Enemies"; 
 
         rosterText.text = combatManager.RosterStr;
     }

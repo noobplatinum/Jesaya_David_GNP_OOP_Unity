@@ -16,7 +16,6 @@ public class CombatManager : MonoBehaviour
     public int totalPts = 0;
     public string RosterStr = "";
     private MainUI mainUI;
-
     private void Start()
     {
         waveNumber = 0;
@@ -47,16 +46,22 @@ public class CombatManager : MonoBehaviour
         waveNumber++; 
         mainUI.StartCoroutine(mainUI.ShowWaveStart(waveNumber)); // Tampilkan wave start
         totalEnemies = 0; 
-        displayEnemies = 0;
         timerReset = false; // Timer bisa direset lagi
         allEnemiesSpawned = false;
 
         foreach(EnemySpawner spawner in enemySpawners)
         {
-            spawner.SpawnAll(); // Spawn tiap jenis enemy
+            if (spawner.increaseSpawnCountNextWave) 
+                {
+                    spawner.spawnCount = spawner.defaultSpawnCount + (spawner.spawnCountMultiplier * spawner.multiplierIncreaseCount);
+                    spawner.multiplierIncreaseCount++;
+                    spawner.increaseSpawnCountNextWave = false;
+                }
+                spawner.SpawnAll(); // Spawn tiap jenis enemy
+
             if (spawner.isSpawning == true)
             {
-                displayEnemies += spawner.spawnCount;
+                displayEnemies += spawner.spawnCount; // Hitung total enemy yang akan muncul
                 switch(spawner.spawnedEnemy.name)
                 {
                     case "HorizontalEnemy":
@@ -80,7 +85,7 @@ public class CombatManager : MonoBehaviour
     public void TotalEnemyCounter()
     {
         totalEnemies--; // Count turun jika enemy mati
-        displayEnemies--; // Count turun jika enemy mati
+        displayEnemies--;
     }
 
     public void OnEnemySpawned()

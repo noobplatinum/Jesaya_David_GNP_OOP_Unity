@@ -18,12 +18,12 @@ public class EnemySpawner : MonoBehaviour
     public int defaultSpawnCount = 1;
     public int spawnCountMultiplier = 1;
     public int multiplierIncreaseCount = 1;
-
     public CombatManager combatManager;
 
     public bool isSpawning = false; // Flag untuk mengetahui apakah enemy masih spawn
     private float spawnTimer = 0f; // Untuk interval spawn
     private int enemiesSpawned = 0; // Counter untuk enemy yang sudah muncul
+    public bool increaseSpawnCountNextWave = false; 
 
     private void Start()
     {
@@ -73,19 +73,18 @@ public class EnemySpawner : MonoBehaviour
     }
 
     public void TotalEnemyCounter()
+{
+    totalKill++;
+    totalKillWave++;
+
+    if (totalKillWave >= minimumKillsToIncreaseSpawnCount)
     {
-        totalKill++;
-        totalKillWave++;
-
-        if (totalKillWave >= minimumKillsToIncreaseSpawnCount)
-        {
-            totalKillWave = 0;
-            spawnCount = defaultSpawnCount + (spawnCountMultiplier * multiplierIncreaseCount);
-            multiplierIncreaseCount++;
-        }
-
-        combatManager.totalPts += spawnedEnemy.level;
+        totalKillWave = 0;
+        increaseSpawnCountNextWave = true; 
     }
+
+    combatManager.totalPts += spawnedEnemy.level;
+}
 
     public bool IsSpawning()
     {
